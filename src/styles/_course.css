@@ -1,0 +1,37 @@
+.course {
+
+}
+    .course__navigation {
+
+    }
+
+    .course__jumbotron {
+
+    }
+
+    .course__body {
+
+    }
+
+
+@media (min-width: 992px) {
+
+    .course {
+
+    }
+        .course__navigation {
+            display: none;
+        }
+
+        .course__jumbotron {
+
+        }
+            .course__jumbotron .tab-pane {
+                display: block !important;
+                opacity: 1 !important;
+            }
+
+        .course__body {
+
+        }
+}

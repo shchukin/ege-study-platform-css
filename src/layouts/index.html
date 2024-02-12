@@ -55,7 +55,7 @@
         <link href="../fonts/fonts.css" rel="stylesheet"/>
         <link href="../overrides/colors-override.css" rel="stylesheet"/>
         <link href="../styles/style.css" rel="stylesheet">
-        
+
     </head>
     <body>
 
@@ -76,19 +76,56 @@
                     </a>
                 </div>
                 <ul class="sidebar-menu do-nicescrol">
+                    <li class="sidebar-header">
+                        Очное направление
+                    </li>
                     <li>
-                        <a href="google.com" class="waves-effect">
-                            <i class="zmdi zmdi-view-dashboard"></i> <span>Мои группы</span></i>
+                        <a class="waves-effect" href="/groups/">
+                            <i class="fa fa-users"></i>
+                            <span>Мои группы</span>
                         </a>
                     </li>
-                    <li><a href="#" class="waves-effect"><i class="zmdi zmdi-view-dashboard"></i> <span>Мои курсы</span></a></li>
-                    <li class="sidebar-header">Магазин</li>
-                    <li><a href="#" class="waves-effect"><i class="zmdi zmdi-coffee text-danger"></i> <span>Математика</span></a></li>
-                    <li><a href="#" class="waves-effect"><i class="zmdi zmdi-chart-donut text-success"></i> <span>Информатика</span></a></li>
-                    <li><a href="#" class="waves-effect"><i class="zmdi zmdi-share text-info"></i> <span>Русский язык</span></a></li>
-                    <li><a href="#" class="waves-effect"><i class="zmdi zmdi-share text-info"></i> <span>Физика</span></a></li>
+                    <li class="sidebar-header">
+                        Обучение
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="#">
+                            <i class="fa fa-folder"></i>
+                            <span>Предметы</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="sidebar-submenu">
+                            <li>
+                                <a href="/subject/8/"><i aria-hidden="true" class="fa fa-angle-double-right"></i> <span>Алгебра</span></a>
+                            </li>
+                            <li>
+                                <a href="/subject/4/"><i aria-hidden="true" class="fa fa-angle-double-right"></i> <span>Английский язык</span></a>
+                            </li>
+                            <li>
+                                <a href="/subject/9/"><i aria-hidden="true" class="fa fa-angle-double-right"></i> <span>История</span></a>
+                            </li>
+                            <li>
+                                <a href="/subject/5/"><i aria-hidden="true" class="fa fa-angle-double-right"></i> <span>Литература</span></a>
+                            </li>
+                            <li>
+                                <a href="/subject/1/"><i aria-hidden="true" class="fa fa-angle-double-right"></i> <span>Математика</span></a>
+                            </li>
+                            <li>
+                                <a href="/subject/2/"><i aria-hidden="true" class="fa fa-angle-double-right"></i> <span>Русский язык</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a class="waves-effect" href="/profile/courses/"><i class="fa fa-book"></i> <span>Мои курсы</span></a>
+                    </li>
+                    <li class="sidebar-header">Профиль</li>
+                    <li>
+                        <a class="waves-effect" href="/profile/statistics/"><i class="fa fa-trophy"></i> <span>Мои достижения</span></a>
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="/profile/settings/"><i class="fa fa-cogs"></i> <span>Мои настройки</span></a>
+                    </li>
                 </ul>
-
             </div>
             <!--End sidebar-wrapper-->
 
@@ -139,6 +176,7 @@
 
             <div class="content-wrapper">
                 <div class="container-fluid">
+
                     <!-- Breadcrumb-->
                     <div class="pt-3 pb-3">
                         <ol class="breadcrumb">
@@ -147,76 +185,78 @@
                         <h4 class="page-title">Онлайн-курс Математика 100 баллов (22/23 г.)</h4>
                     </div>
                     <!-- End Breadcrumb-->
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="card h-100 mb-0">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut culpa cupiditate eligendi hic illum laboriosam modi necessitatibus nihil sunt. Adipisci amet atque aut, consectetur consequuntur dignissimos esse, ex explicabo illum iure officiis perspiciatis qui quia quos repellat rerum sit totam? Adipisci atque, beatae corporis excepturi ipsum magnam quo reiciendis repudiandae voluptas voluptates. A accusantium amet architecto debitis deleniti doloremque doloribus fugiat, impedit iusto minima modi natus nesciunt nisi, nostrum obcaecati pariatur reiciendis rem saepe unde velit. Dicta esse impedit laboriosam maiores modi obcaecati officia quis ratione repudiandae ut? A accusantium adipisci architecto at debitis delectus et ex laborum optio!
-                            </div>
+
+
+                    <div class="course">
+                        <div class="course__navigation">
+                            <ul class="nav nav-tabs nav-tabs-primary">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#course">Курс</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#progress">Прогресс</a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="card h-100 mb-0">
-                                <div class="card-header text-uppercase">Скоро начнётся</div>
-                                <div class="card-body">
-                                    <p class="text-black-50">
-                                        <i aria-hidden="true" class="fa fa-calendar-o"></i>
-                                        05 июня в 11:00
-                                    </p>
-                                    <p>Прогрессии. Задачи на кредиты и вклады – подготовительные.</p>
-                                    <p><a href="#">Все мастер-классы</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--End Row-->
-                    <div class="row mt-4">
-                        <div class="col-lg-4">
-                            <div class="card pb-2">
-                                <div class="card-body">
-                                    <div class="media align-items-center">
-                                        <div class="media-body">
-                                            <div class="progress-wrapper">
-                                                <p>Пройдено тем <span class="float-right"><span class="text-primary">26</span> <span class="text-black-50">/</span> 31</span></p>
-                                                <div class="progress" style="height: 7px;">
-                                                    <div class="progress-bar bg-primary" style="width:65%"></div>
+                        <div class="course__jumbotron">
+                            <div class="tab-content" id="myTabContent">
+                                <!-- Первая таба (Вводный текст и картинка) -->
+                                <div class="tab-pane fade show active" id="course">
+                                    <div class="welcome">
+                                        <div class="welcome__body white-panel">
+                                            <img class="welcome__illustration" src="../content/welcome@3x.png" width="220" alt="">
+                                            <div class="welcome__summary">
+                                                <h2 class="welcome__heading">
+                                                    Добро пожаловать на курс!
+                                                    Начни обучение с оценки своих знаний.
+                                                </h2>
+                                                <div class="welcome__description">
+                                                    Пройди тест и получи примерное представление о своих сильных и слабых сторонах, что поможет тебе в обучении на курсе.
                                                 </div>
+                                                <a class="welcome__begin btn btn-primary" href="#">Начать тестирование</a>
                                             </div>
+                                        </div>
+                                        <div class="welcome__summary white-panel">
+                                            <div class="welcome__sub-heading">
+
+                                            </div>
+                                            <div class="welcome__time">
+                                                <p class="text-black-50">
+                                                    <i aria-hidden="true" class="fa fa-calendar-o"></i>
+                                                    05 июня в 11:00
+                                                </p>
+                                            </div>
+                                            <div class="welcome__topic">
+
+                                            </div>
+                                            <div class="welcome__details">
+                                                <a class="link" href="#">Все мастер-классы</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Вторая таба (бегунки и проценты) -->
+                                <div class="tab-pane fade" id="progress">
+                                    <div class="progress">
+                                        <div class="progress__item white-panel">
+                                            1
+                                        </div>
+                                        <div class="progress__item white-panel">
+                                            2
+                                        </div>
+                                        <div class="progress__item white-panel">
+                                            3
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="card pb-2">
-                                <div class="card-body">
-                                    <div class="media align-items-center">
-                                        <div class="media-body">
-                                            <div class="progress-wrapper">
-                                                <p>Пройдено тем <span class="float-right"><span class="text-primary">26</span> <span class="text-black-50">/</span> 31</span></p>
-                                                <div class="progress" style="height: 7px;">
-                                                    <div class="progress-bar bg-primary" style="width:65%"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="course__body">
+
                         </div>
-                        <div class="col-lg-4">
-                            <div class="card pb-2">
-                                <div class="card-body">
-                                    <div class="media align-items-center">
-                                        <div class="media-body">
-                                            <div class="progress-wrapper">
-                                                <p>Решено тестов <span class="float-right"><span class="text-primary">8</span> <span class="text-black-50">/</span> 16</span></p>
-                                                <div class="progress" style="height: 7px;">
-                                                    <div class="progress-bar bg-primary" style="width:65%"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--End Row-->
+                    </div>
+
+
                     <div class="card h-100 mb-0">
                         <div class="card-body">
                             <h2 class="card-title">Программа обучения</h2>
