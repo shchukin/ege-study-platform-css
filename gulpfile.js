@@ -234,6 +234,18 @@ gulp.task('symbols', function () {
 });
 
 
+// Overrides: copy
+
+gulp.task('overrides', function () {
+    return gulp.src('src/overrides/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest('build/overrides/'))
+        ;
+});
+
+
+
+
 // Styles: concat, add prefixes, compress, copy
 
 gulp.task('styles', function () {
@@ -281,7 +293,7 @@ gulp.task('lint', function () {
 
 
 gulp.task('default', function (fn) {
-    run('clean', 'manifest', 'favicon', 'temp', 'content', 'images', 'markups', 'layouts', 'vendors', 'scripts', 'symbols', 'styles', 'lint', fn);
+    run('clean', 'manifest', 'favicon', 'temp', 'content', 'images', 'markups', 'layouts', 'vendors', 'scripts', 'symbols', 'overrides', 'styles', 'lint', fn);
 });
 
 
