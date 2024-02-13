@@ -6,11 +6,11 @@
     }
 
     .course__jumbotron {
-
+        margin-top: 12px;
     }
 
     .course__body {
-
+        margin-top: 12px;
     }
 
 
@@ -29,6 +29,11 @@
             .course__jumbotron .tab-pane {
                 display: block !important;
                 opacity: 1 !important;
+                margin-top: 12px;
+            }
+
+            .course__jumbotron .tab-pane:first-child {
+                margin-top: 0;
             }
 
         .course__body {
