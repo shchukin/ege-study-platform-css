@@ -14,7 +14,7 @@
     }
 
 
-@media (min-width: 992px) {
+@media (768px <= width) {
 
     .course {
 

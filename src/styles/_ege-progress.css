@@ -1,6 +1,9 @@
 .ege-progress {
+    /*margin-left: -6px;*/
+    /*margin-right: -6px;*/
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
 }
     .ege-progress__item {
 
