@@ -13,7 +13,8 @@
     --text-secondary: #968779;
     --text-secondary-2: #C7BBB0;
     --text-secondary-3: #E0D8D0;
-    --shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.04);
+    --shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.04);
+    --shadow-small: 2px 2px 12px 0 rgba(0, 0, 0, 0.04);
 
     /* Own */
     --success: var(--accent);

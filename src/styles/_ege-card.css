@@ -1,4 +1,5 @@
 .ege-card {
     background-color: #FFFFFF;
+    box-shadow: var(--shadow-small);
     border-radius: 12px;
 }

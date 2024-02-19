@@ -1,10 +1,10 @@
 @import url("_visuallyhidden.css");
 /*@import url("_root.css");*/
-/*@import url("_html.css");*/
+@import url("_html.css");
 /*@import url("_body.css");*/
 @import url("_browser.css");
 
-/*@import url("_link.css");*/
+@import url("_link.css");
 /*@import url("_wysiwyg.css");*/
 @import url("_course.css");
 @import url("_ege-welcome.css");
