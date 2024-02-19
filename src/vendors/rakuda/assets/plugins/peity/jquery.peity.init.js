@@ -1,28 +1,8 @@
-       
 $(function() {
-    "use strict";
 
-	   //pie
-            $("span.pie").peity("pie",{
-                width: 120,
-                height: 120 
-            });
-        
-        //donut
+    $(".ege-progress__chart").peity("donut", {
+        radius: 18,
+        innerRadius: 13
+    });
 
-          $("span.donut").peity("donut",{
-                width: 120,
-                height: 120 
-            });
-
-         // line
-         $('.peity-line').each(function() {
-            $(this).peity("line", $(this).data());
-         });
-
-         // bar
-          $('.peity-bar').each(function() {
-            $(this).peity("bar", $(this).data());
-         });
-         
-   });
+});

@@ -2,6 +2,8 @@
     --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --body-font-size: 16px;
     --body-line-height: 24px;
+    --caption-font-size: 14px;
+    --caption-line-height: 21px;
     --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
     --transition-hover: 100ms ease;
     --transition-show: 1200ms var(--ease-out-quint);
