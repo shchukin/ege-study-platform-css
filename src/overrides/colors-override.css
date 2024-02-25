@@ -74,7 +74,7 @@ hr {
 
 
 .text-primary {
-    color: var(--accent-link);
+    color: var(--accent-link) !important;
 }
 
 .text-success {
