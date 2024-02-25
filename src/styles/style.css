@@ -1,5 +1,5 @@
 @import url("_visuallyhidden.css");
-/*@import url("_root.css");*/
+@import url("_root.css");
 @import url("_html.css");
 /*@import url("_body.css");*/
 @import url("_browser.css");
@@ -10,4 +10,7 @@
 @import url("_ege-welcome.css");
 @import url("_ege-card.css");
 @import url("_ege-progress.css");
+@import url("_ege-course-tile.css");
+@import url("_ege-chart.css");
+@import url("_ege-all-courses.css");
 

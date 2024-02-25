@@ -1,0 +1,33 @@
+.ege-course-tile {
+    min-height: 100%;
+    padding: 20px 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+    .ege-course-tile__preview {
+
+    }
+        .ege-course-tile__image {
+            vertical-align: top;
+            width: 100%;
+            height: auto;
+        }
+
+    .ege-course-tile__heading {
+        margin-top: 22px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .ege-course-tile__note {
+        margin-top: auto;
+        padding-top: 12px;
+        font-size: var(--caption-font-size);
+        line-height: var(--caption-line-height);
+        color: var(--text-secondary);
+    }
+
+    .ege-course-tile__progress {
+        margin-top: 24px;
+    }

@@ -12,19 +12,9 @@
         justify-content: space-between;
         padding: 24px;
     }
-        .ege-progress__value {
-            display: flex;
-            align-items: center;
-            gap: 12px;
+        .ege-chart__value {
+
         }
-            .ege-progress__chart {
-
-            }
-
-            .ege-progress__text-value {
-                font-size: 20px;
-                line-height: 24px;
-            }
 
         .ege-progress__data {
             font-size: var(--caption-font-size);
@@ -51,52 +41,30 @@
 
     .ege-progress {
         display: block;
-        /*grid-auto-flow: column;*/
-        /*grid-auto-columns: minmax(0, 1fr);*/
-        /*gap: 12px;*/
         padding-top: 12px;
     }
         .ege-progress__item {
             margin-top: 12px;
-            /*display: flex;*/
-            /*align-items: center;*/
-            /*justify-content: space-between;*/
-            /*padding: 24px;*/
         }
 
         .ege-progress__item:first-child {
             margin-top: 0;
         }
-            .ege-progress__value {
-                /*display: flex;*/
-                /*align-items: center;*/
-                /*gap: 12px;*/
+            .ege-chart__value {
+
             }
-                .ege-progress__chart {
-
-                }
-
-                .ege-progress__text-value {
-                    /*font-size: 20px;*/
-                    /*line-height: 24px;*/
-                }
 
             .ege-progress__data {
-                /*font-size: var(--caption-font-size);*/
-                /*line-height: var(--caption-line-height);*/
-                /*text-align: right;*/
+
             }
                 .ege-progress__numbers {
-                    /*font-size: 16px;*/
-                    /*line-height: 24px;*/
+
                 }
                     .ege-progress__separator {
-                        /*color: var(--secondary-2);*/
+
                     }
 
                 .ege-progress__label {
-                    /*margin-top: 2px;*/
-                    /*font-size: 14px;*/
-                    /*line-height: 20px;*/
+
                 }
 }

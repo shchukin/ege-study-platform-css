@@ -22,10 +22,17 @@
     text-decoration-color: transparent;
 }
 
-.link:active,
-.wysiwyg a:active {
-    color: var(--primary);
-    transition: none;
+/*.link:active,*/
+/*.wysiwyg a:active {*/
+/*    color: var(--primary);*/
+/*    transition: none;*/
+/*}*/
+
+
+.link--inherit,
+.wysiwyg .link--inherit {
+    color: inherit;
+    text-decoration: none !important;
 }
 
 

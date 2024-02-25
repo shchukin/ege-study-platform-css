@@ -1,0 +1,18 @@
+.ege-chart {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+    .ege-chart__visualization {
+
+    }
+
+    .ege-chart__value {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .ege-chart__value--smaller {
+        font-size: 16px;
+        line-height: 20px;
+    }

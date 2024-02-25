@@ -1,0 +1,16 @@
+.ege-all-courses {
+
+}
+    .ege-all-courses__navigation {
+
+    }
+
+    .ege-all-courses__list {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 12px;
+    }
+        .ege-all-courses__item {
+
+        }
