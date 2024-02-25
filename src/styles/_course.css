@@ -12,6 +12,18 @@
     .course__body {
         margin-top: 12px;
     }
+        .course__sub-heading {
+
+        }
+
+        .course__sub-navigation {
+
+        }
+
+        .course__content {
+
+        }
+
 
 
 @media (768px <= width) {
@@ -39,4 +51,24 @@
         .course__body {
 
         }
+            .course__sub-heading {
+                padding: 30px 30px 10px;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+
+            .course__sub-navigation {
+
+            }
+                .course__sub-navigation .nav {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+
+            .course__content {
+
+            }
+
 }
