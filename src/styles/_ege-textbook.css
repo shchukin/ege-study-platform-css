@@ -37,3 +37,48 @@
         .ege-textbook__content {
             order: -1;
         }
+
+
+
+@media (width < 740px) {
+
+    .ege-textbook {
+
+    }
+        .ege-textbook__navigation {
+
+        }
+
+        .ege-textbook__progress {
+
+        }
+
+        .ege-textbook__body {
+            /*margin-top: 30px;*/
+            display: block;
+            /*grid-template-columns: 828fr 280fr;*/
+            /*gap: 12px;*/
+        }
+            .ege-textbook__sidebar {
+                margin-bottom: 4px;
+            }
+                .ege-textbook__progress {
+                    /*background-color: #FFFFFF;*/
+                    /*border-radius: 12px;*/
+                }
+                    .ege-textbook__progress-heading {
+                        /*padding: 18px 30px;*/
+                        /*font-weight: 600;*/
+                        /*font-size: 16px;*/
+                        /*line-height: 24px;*/
+                    }
+
+                    .ege-textbook__progress-completion {
+                        /*border-top: 1px solid #F6F4F2;*/
+                        /*padding: 25px 30px 30px;*/
+                    }
+
+            .ege-textbook__content {
+                /*order: -1;*/
+            }
+}
