@@ -5,7 +5,7 @@
 @import url("_browser.css");
 
 @import url("_link.css");
-/*@import url("_wysiwyg.css");*/
+@import url("_wysiwyg.css");
 @import url("_ege-course.css");
 @import url("_ege-welcome.css");
 @import url("_ege-card.css");
@@ -14,4 +14,7 @@
 @import url("_ege-chart.css");
 @import url("_ege-all-courses.css");
 @import url("_ege-textbook.css");
+@import url("_ege-checkbox-panel.css");
+@import url("_ege-accordion.css");
+@import url("_ege-example.css");
 

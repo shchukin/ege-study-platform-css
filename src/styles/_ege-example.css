@@ -1,0 +1,33 @@
+.ege-example {
+    padding: 20px 24px 10px;
+    background-color: #F6F4F2;
+    border-radius: 8px;
+}
+    .ege-example__heading {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .ege-example__description {
+        margin-top: 6px;
+    }
+
+    .ege-example__show {
+        padding: 14px 0 16px;
+        border: none;
+        background-color: transparent;
+        font-family: inherit;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: inherit;
+        color: var(--accent-link);
+        cursor: pointer;
+        text-decoration: underline solid transparent;
+        text-underline-offset: 5px;
+    }
+
+    .ege-example__show:hover {
+        text-decoration-color: currentColor;
+    }

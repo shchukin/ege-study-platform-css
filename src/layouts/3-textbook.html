@@ -200,10 +200,63 @@
                         </div>
                         <div class="ege-textbook__body">
                             <div class="ege-textbook__sidebar">
-                                1
+                                <div class="ege-textbook__progress">
+                                    <div class="ege-textbook__progress-heading">
+                                        Прогресс по учебнику
+                                    </div>
+                                    <div class="ege-textbook__progress-completion">
+                                        <div class="ege-checkbox-panel">
+                                            <div class="icheck-material-primary">
+                                                <input type="checkbox" id="primary" checked/>
+                                                <label for="primary">Тема изучена</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="ege-textbook__content">
-                                2
+                                <div class="ege-accordion" id="accordion1">
+                                    <div class="ege-accordion__item ege-card">
+                                        <button class="ege-accordion__handler" data-toggle="collapse" data-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                                            Определения
+                                        </button>
+                                        <div id="collapse-1" class="collapse show" data-parent="#accordion1">
+                                            <div class="ege-accordion__entry wysiwyg">
+                                                <p>События, взаимоисключающие друг друга в рамках данной задачи, называются несовместными. Появление одного из несовместных событий исключает появление других. </p>
+                                                <figure class="ege-example">
+                                                    <div class="ege-example__heading">Пример</div>
+                                                    <div class="ege-example__description">Вы бросаете монету. «Выпал орел» и «выпала решка» - несовместные события.</div>
+                                                    <button class="ege-example__show" type="button">Показать решение</button>
+                                                </figure>
+                                                <figure class="ege-example">
+                                                    <div class="ege-example__heading">Пример</div>
+                                                    <div class="ege-example__description">При изготовлении подшипников диаметром 76 мм вероятность того, что диаметр будет отличаться от заданного не больше чем на 0,01 мм, равна 0,983. Найдите вероятность того, что случайный подшипник будет иметь диаметр меньше чем 75,99 мм или больше чем 76,01 мм.</div>
+                                                    <button class="ege-example__show" type="button">Показать решение</button>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ege-accordion__item ege-card">
+                                        <button class="ege-accordion__handler collapsed" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                                            Сумма двух событий
+                                        </button>
+                                        <div id="collapse-2" class="collapse" data-parent="#accordion1">
+                                            <div class="ege-accordion__entry wysiwyg">
+                                                <p>События, взаимоисключающие друг друга в рамках данной задачи, называются несовместными. Появление одного из несовместных событий исключает появление других. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ege-accordion__item ege-card">
+                                        <button class="ege-accordion__handler collapsed" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                                            Независимые события
+                                        </button>
+                                        <div id="collapse-3" class="collapse" data-parent="#accordion1">
+                                            <div class="ege-accordion__entry wysiwyg">
+                                                <p>События, взаимоисключающие друг друга в рамках данной задачи, называются несовместными. Появление одного из несовместных событий исключает появление других. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
