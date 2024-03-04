@@ -1,8 +1,14 @@
 .ege-all-courses {
-
+    position: relative;
 }
     .ege-all-courses__navigation {
 
+    }
+
+    .ege-all-courses__filter {
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 
     .ege-all-courses__list {

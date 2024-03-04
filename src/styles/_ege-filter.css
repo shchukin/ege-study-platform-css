@@ -1,0 +1,23 @@
+.ege-filter {
+
+}
+    .ege-filter .dropdown-menu {
+        top: 100% !important;
+        right: 0 !important;
+        left: auto !important;
+        bottom: auto !important;
+        transform: none !important;
+    }
+        .ege-filter__widgets {
+            padding: 20px 24px 32px;
+        }
+
+        .ege-filter .dropdown-divider {
+
+        }
+
+        .ege-filter__actions {
+            display: flex;
+            align-items: flex-start;
+            padding: 16px 24px 12px;
+        }
