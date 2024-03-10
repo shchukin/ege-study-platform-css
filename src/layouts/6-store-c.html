@@ -182,151 +182,85 @@
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#"><i aria-hidden="true" class="fa fa-long-arrow-left"></i> Мои курсы</a></li>
                         </ol>
-                        <h1 class="page-title">Математика</h1>
+                        <h4 class="page-title">Расписание мастер-классов</h4>
                     </div>
                     <!-- End Breadcrumb-->
 
 
-                    <div class="ege-all-courses">
-                        <div class="ege-all-courses__navigation">
+                    <div class="ege-course">
+                        <div class="ege-course__navigation">
                             <ul class="nav nav-tabs nav-tabs-primary">
                                 <li class="nav-item">
-                                    <a class="nav-link active" data-toggle="tab" href="#">Курсы <span class="badge badge-pill badge-primary ml-2">3</span></a>
+                                    <a class="nav-link active" data-toggle="tab" href="#course">Курс</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#">Мастер-классы <span class="badge badge-pill badge-light ml-2">4</span></a>
+                                    <a class="nav-link" data-toggle="tab" href="#progress">Прогресс</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="ege-all-courses__filter">
-                            <div class="ege-filter">
-                                <div class="btn-group-round" role="group">
-                                    <button class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" type="button">
-                                        Фильтр
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <div class="ege-filter__widgets">
-                                            <div class="icheck-material-primary">
-                                                <input type="checkbox" id="primary" checked/>
-                                                <label for="primary">5-8 классы</label>
-                                            </div>
-                                            <div class="icheck-material-primary">
-                                                <input type="checkbox" id="primary" checked/>
-                                                <label for="primary">9 классы</label>
-                                            </div>
-                                            <div class="icheck-material-primary">
-                                                <input type="checkbox" id="primary" checked/>
-                                                <label for="primary">10-11 классы</label>
-                                            </div>
-                                            <div class="icheck-material-primary">
-                                                <input type="checkbox" id="primary" checked/>
-                                                <label for="primary">Для учителей</label>
-                                            </div>
-                                            <div class="icheck-material-primary">
-                                                <input type="checkbox" id="primary" checked/>
-                                                <label for="primary">Для родителей</label>
+                        <div class="ege-course__body ege-card">
+                            <div class="ege-course__search">
+                                <input type="text" class="form-control" placeholder="Поиск по названию или теме">
+                            </div>
+                            <div class="ege-course__sub-navigation">
+                                <ul class="nav nav-tabs nav-tabs-primary">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#tabe-1">Все <span class="badge badge-pill badge-primary ml-2">50</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabe-2">Запланированы <span class="badge badge-pill badge-light ml-2">16</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabe-2">Прошли <span class="badge badge-pill badge-light ml-2">12</span></a>
+                                    </li>
+                                </ul>
+                                <div class="ege-course__filter">
+                                    <div class="ege-filter">
+                                        <div class="btn-group-round" role="group">
+                                            <button class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" type="button">
+                                                Фильтр
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <div class="ege-filter__widgets">
+                                                    <div class="icheck-material-primary">
+                                                        <input type="checkbox" id="primary" checked/>
+                                                        <label for="primary">5-8 классы</label>
+                                                    </div>
+                                                    <div class="icheck-material-primary">
+                                                        <input type="checkbox" id="primary" checked/>
+                                                        <label for="primary">9 классы</label>
+                                                    </div>
+                                                    <div class="icheck-material-primary">
+                                                        <input type="checkbox" id="primary" checked/>
+                                                        <label for="primary">10-11 классы</label>
+                                                    </div>
+                                                    <div class="icheck-material-primary">
+                                                        <input type="checkbox" id="primary" checked/>
+                                                        <label for="primary">Для учителей</label>
+                                                    </div>
+                                                    <div class="icheck-material-primary">
+                                                        <input type="checkbox" id="primary" checked/>
+                                                        <label for="primary">Для родителей</label>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown-divider"></div>
+                                                <div class="ege-filter__actions">
+                                                    <button class="btn btn-primary">Показать 34</button>
+                                                    <button class="btn btn-link text-secondary">Сбросить</button>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="dropdown-divider"></div>
-                                        <div class="ege-filter__actions">
-                                            <button class="btn btn-primary">Показать 34</button>
-                                            <button class="btn btn-link text-secondary">Сбросить</button>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="ege-all-courses__list">
-                            <div class="ege-all-courses__item">
-                                <div class="ege-course-tile ege-card">
-                                    <a class="ege-course-tile__preview" href="#">
-                                        <img class="ege-course-tile__image" src="../temp/course-tile-a@2x.jpg" alt="">
-                                    </a>
-                                    <div class="ege-course-tile__heading">
-                                        <a class="link link--inherit" href="#">Онлайн-марафон Вспомнить все перед 11 классом</a>
-                                    </div>
-                                    <div class="ege-course-tile__note">
-                                        Доступ до 01.07.2023
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ege-all-courses__item">
-                                <div class="ege-course-tile ege-card">
-                                    <a class="ege-course-tile__preview" href="#">
-                                        <img class="ege-course-tile__image" src="../temp/course-tile-b@2x.jpg" alt="">
-                                    </a>
-                                    <div class="ege-course-tile__heading">
-                                        <a class="link link--inherit" href="#">Онлайн-курс Математика 100 баллов (23/24 г.) Лето в подарок!</a>
-                                    </div>
-                                    <div class="ege-course-tile__note">
-                                        Доступ до 01.07.2023
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ege-all-courses__item">
-                                <div class="ege-course-tile ege-card">
-                                    <a class="ege-course-tile__preview" href="#">
-                                        <img class="ege-course-tile__image" src="../temp/course-tile-c@2x.jpg" alt="">
-                                    </a>
-                                    <div class="ege-course-tile__heading">
-                                        <a class="link link--inherit" href="#">Онлайн-курс "ОГЭ на 5!" для 9-классников</a>
-                                    </div>
-                                    <div class="ege-course-tile__note">
-                                        Доступ до 01.07.2023
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ege-all-courses__item">
-                                <div class="ege-course-tile ege-card">
-                                    <a class="ege-course-tile__preview" href="#">
-                                        <img class="ege-course-tile__image" src="../temp/course-tile-d@2x.jpg" alt="">
-                                    </a>
-                                    <div class="ege-course-tile__heading">
-                                        <a class="link link--inherit" href="#">Мини-курс Метод координат в Задаче 13 (стереометрия) с нуля!</a>
-                                    </div>
-                                    <div class="ege-course-tile__note">
-                                        Доступ до 01.07.2023
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ege-all-courses__item">
-                                <div class="ege-course-tile ege-card">
-                                    <a class="ege-course-tile__preview" href="#">
-                                        <img class="ege-course-tile__image" src="../temp/course-tile-b@2x.jpg" alt="">
-                                    </a>
-                                    <div class="ege-course-tile__heading">
-                                        <a class="link link--inherit" href="#">Мини-курс "Задачи 3 и 4 ЕГЭ-2024, +4 балла за Теорию вероятностей</a>
-                                    </div>
-                                    <div class="ege-course-tile__note">
-                                        Доступ до 01.07.2023
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ege-all-courses__item">
-                                <div class="ege-course-tile ege-card">
-                                    <a class="ege-course-tile__preview" href="#">
-                                        <img class="ege-course-tile__image" src="../temp/course-tile-c@2x.jpg" alt="">
-                                    </a>
-                                    <div class="ege-course-tile__heading">
-                                        <a class="link link--inherit" href="#">Как преподавателю тратить меньше времени. Мини-курс Анны Малковой для учителей</a>
-                                    </div>
-                                    <div class="ege-course-tile__note">
-                                        Доступ до 01.07.2023
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ege-all-courses__item">
-                                <div class="ege-course-tile ege-card">
-                                    <a class="ege-course-tile__preview" href="#">
-                                        <img class="ege-course-tile__image" src="../temp/course-tile-d@2x.jpg" alt="">
-                                    </a>
-                                    <div class="ege-course-tile__heading">
-                                        <a class="link link--inherit" href="#">Онлайн-курс математика ОГЭ для преподавателей и родителей 23/24</a>
-                                    </div>
-                                    <div class="ege-course-tile__note">
-                                        Доступ до 01.07.2023
-                                    </div>
-                                </div>
+                            <div class="ege-course__content">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias amet aperiam aspernatur assumenda at dignissimos distinctio dolor dolore doloremque ea error excepturi exercitationem impedit inventore necessitatibus, neque nesciunt nulla pariatur porro quasi quia quibusdam reiciendis rerum soluta sunt ut vel vitae voluptas voluptatum. A beatae dolor doloremque dolores dolorum, ducimus, earum excepturi harum laborum non quae, quibusdam ut. Ab accusantium amet consequatur deserunt
+                                distinctio dolor dolores earum eius eos eum exercitationem incidunt inventore iste labore nemo nulla, odio odit porro quam quis quos ratione repellendus sapiente similique, sint velit, vitae? Commodi debitis iusto magnam recusandae? Dicta distinctio dolore inventore officiis, praesentium provident repellendus. Consectetur fuga laudantium molestiae nulla pariatur tempore vero vitae! Architecto assumenda cum deserunt ducimus eos exercitationem expedita fugiat iure mollitia odio,
+                                officiis praesentium quibusdam, quisquam, repellendus rerum unde voluptatum! Adipisci aliquid aut ea molestias qui. Ad architecto at consequatur, deserunt dolore dolorum eaque earum, exercitationem explicabo impedit in inventore ipsa laborum minima officia praesentium quam quidem, quis quisquam quos rerum sint suscipit unde! Et facilis magnam qui rerum vel! Animi aperiam aspernatur assumenda atque commodi debitis dicta distinctio dolorum enim expedita harum iusto maxime odio, officia
+                                pariatur quia ratione similique sunt vel velit. Ad architecto delectus exercitationem illum, inventore ipsam nihil repellendus suscipit tenetur totam! Ab aperiam asperiores blanditiis doloremque inventore ipsam iure iusto laboriosam, minima molestiae non obcaecati odit omnis perferendis quas quisquam quod saepe sed sint, tempora veniam vitae voluptatum. At, incidunt, veniam? Accusamus eligendi eum minima! Eum fugiat fugit in iusto minus nobis officia perferendis placeat quasi quia.
+                                Deleniti eaque maiores mollitia. Amet asperiores aspernatur, at atque autem beatae commodi culpa cum debitis dignissimos dolorem doloremque doloribus error eveniet in ipsam ipsum iure magni nemo non obcaecati odit porro provident quam quibusdam quisquam quo quos ratione recusandae repellendus sapiente sed sit suscipit tenetur unde ut voluptates! Accusamus amet animi aperiam culpa dolore, earum eius est ex expedita facere facilis fugit inventore ipsa libero magnam magni maiores neque
+                                nobis odit omnis optio pariatur perspiciatis possimus quidem saepe sit sunt tempora temporibus tenetur voluptatibus. Dolores, excepturi, iure. Aliquid corporis dolor eos expedita in ipsa nobis officia pariatur perferendis possimus sequi, suscipit tempora temporibus. Accusantium consectetur consequuntur harum id provident, quis recusandae saepe veniam! Ad aperiam aspernatur, consequatur dolorem, ea excepturi explicabo ipsam iste iure iusto labore laborum libero minima mollitia non
+                                perferendis praesentium quasi sed, tempora totam ullam vero vitae! Ab amet fuga perspiciatis quasi?
                             </div>
                         </div>
                     </div>
