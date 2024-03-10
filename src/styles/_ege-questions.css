@@ -1,0 +1,76 @@
+.ege-questions {
+
+}
+    .ege-questions__head {
+        padding: 18px 30px;
+        border-bottom: 1px solid #F6F4F2;
+    }
+        .ege-questions__heading {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+    .ege-questions__body {
+        padding: 25px 30px 30px;
+    }
+        .ege-questions__description {
+
+        }
+
+        .ege-questions__answer {
+            margin-top: 20px;
+        }
+
+        .ege-questions__actions {
+            margin-top: 20px;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+
+    .ege-questions__solution {
+        border-top: 1px solid #F6F4F2;
+    }
+        .ege-questions__show-solution {
+            position: relative;
+            display: block;
+            width: fit-content;
+            background-color: transparent;
+            padding: 16px 52px 16px 30px;
+            border: none;
+            border-radius: 12px;
+            font-family: inherit;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: var(--primary);
+            letter-spacing: inherit;
+            text-align: left;
+            cursor: pointer;
+        }
+            .ege-questions__show-solution::after {
+                content: "";
+                position: absolute;
+                right: 30px;
+                top: 50%;
+                margin-top: -8px;
+                display: block;
+                width: 16px;
+                height: 16px;
+                background-image: url("../vectors/chevron-bottom-tiny.svg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+                transform: scaleY(-1);
+                transition: transform .2s;
+            }
+
+            .ege-questions__show-solution.collapsed::after {
+                transform: scaleY(1);
+            }
+
+        .ege-questions__solution-dropdown {
+            padding: 20px 30px 30px;
+        }
