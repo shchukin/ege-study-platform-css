@@ -1,0 +1,5 @@
+.ege-video {
+    vertical-align: top;
+    background-color: var(--image-fallback);
+    width: 100%;
+}

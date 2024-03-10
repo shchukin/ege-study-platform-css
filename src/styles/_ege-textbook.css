@@ -15,6 +15,11 @@
         grid-template-columns: 828fr 280fr;
         gap: 12px;
     }
+
+    .ege-textbook__body:first-child {
+        margin-top: 0;
+    }
+
         .ege-textbook__sidebar {
 
         }
@@ -34,13 +39,35 @@
                     padding: 25px 30px 30px;
                 }
 
+                .ege-textbook__progress-completion:first-child {
+                    border-top: none;
+                }
+
+                    .ege-textbook__time {
+                        margin-bottom: 20px;
+                        color: var(--text-secondary);
+                    }
+
         .ege-textbook__content {
             order: -1;
         }
+            .ege-textbook__lesson {
+                padding: 24px 30px 30px;
+            }
+
+            .ege-textbook__addition {
+                margin-top: 12px;
+            }
+                .ege-textbook__sub-nav {
+                    padding-top: 10px;
+                }
+
+                .ege-textbook__related {
+                    padding: 30px 30px 20px;
+                }
 
 
-
-@media (width < 740px) {
+@media (width < 768px) {
 
     .ege-textbook {
 
