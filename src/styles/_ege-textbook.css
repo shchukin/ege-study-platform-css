@@ -42,11 +42,24 @@
                 .ege-textbook__progress-completion:first-child {
                     border-top: none;
                 }
-
                     .ege-textbook__time {
                         margin-bottom: 20px;
                         color: var(--text-secondary);
                     }
+
+                    .ege-textbook__progress-widget {
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+                    }
+                        .ege-textbook__bar {
+                            flex-grow: 1;
+                        }
+
+                        .ege-textbook__value {
+                            flex-shrink: 0;
+                        }
+
 
         .ege-textbook__content {
             order: -1;

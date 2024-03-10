@@ -2,6 +2,7 @@
 
 }
     .ege-questions__head {
+        position: relative;
         padding: 18px 30px;
         border-bottom: 1px solid #F6F4F2;
     }
@@ -10,6 +11,15 @@
             font-size: 16px;
             line-height: 24px;
         }
+
+        .ege-questions__dropdown {
+            position: absolute;
+            right: 30px;
+            top: 20px;
+        }
+            .ege-questions__dropdown .icon-options {
+                color: var(--secondary-4);
+            }
 
     .ege-questions__body {
         padding: 25px 30px 30px;
