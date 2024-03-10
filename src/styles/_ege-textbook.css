@@ -28,11 +28,20 @@
                 border-radius: 12px;
             }
                 .ege-textbook__progress-heading {
+                    position: relative;
                     padding: 18px 30px;
                     font-weight: 600;
                     font-size: 16px;
                     line-height: 24px;
                 }
+                    .ege-textbook__progress-hint {
+                        position: absolute;
+                        right: 30px;
+                        top: 20px;
+                    }
+                        .ege-textbook__progress-hint .fa {
+                            color: #CBC0B4;
+                        }
 
                 .ege-textbook__progress-completion {
                     border-top: 1px solid #F6F4F2;
