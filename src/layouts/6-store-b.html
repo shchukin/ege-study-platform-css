@@ -194,16 +194,80 @@
                                 <div class="ege-welcome">
                                     <div class="ege-welcome__body">
                                         <div class="ege-welcome__body-inner ege-card">
-                                            <img class="ege-welcome__illustration" src="../content/welcome@3x.png" width="220" alt="">
+                                            <img class="ege-welcome__illustration" src="../content/welcome-license@3x.png" width="220" alt="">
                                             <div class="ege-welcome__summary">
                                                 <h2 class="ege-welcome__heading">
-                                                    Добро пожаловать на курс!<br class="hidden-xs">
-                                                    Начни обучение с оценки своих знаний.
+                                                    Для доступа к&nbsp;разделу необходимо купить и&nbsp;активировать ключ
                                                 </h2>
-                                                <div class="ege-welcome__description">
-                                                    Пройди тест и получи примерное представление о своих сильных и слабых сторонах, что поможет тебе в обучении на курсе.
+                                                <div class="ege-welcome__params">
+                                                    <div class="ege-welcome__line">
+                                                        Автор курса Анна Малкова
+                                                    </div>
+                                                    <div class="ege-welcome__line">
+                                                        Доступ до <a class="link link--fake">01.08.2024</a>
+                                                    </div>
                                                 </div>
-                                                <a class="ege-welcome__begin btn btn-primary" href="#">Начать тестирование</a>
+                                                <div class="ege-welcome__actions">
+                                                    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#buy-key">Купить ключ 995 руб.</button>
+                                                    <button class="btn btn-light" type="button" data-toggle="modal" data-target="#activate-key">Купить ключ 995 руб.</button>
+
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="buy-key">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title">Купить курс</h5>
+                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                        <span aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <form>
+                                                                        Укажите ваши данные для автоматического оформления заказа в нашем интернет-магазине
+                                                                        <div class="form-group mt-2">
+                                                                            <input type="text" class="form-control" placeholder="Укажите ФИО">
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <input type="tel" class="form-control" placeholder="Укажите номер телефона">
+                                                                        </div>
+                                                                        <strong>Онлайн-курс:</strong> Онлайн-марафон Вспомнить все! перед 11 классом<br>
+                                                                        <strong>Стоимость:</strong> 995 ₽
+                                                                        <div class="form-group">
+                                                                            <button type="submit" class="btn btn-primary mt-3">Оформить заказ</button>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="activate-key">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title">Активировать ключ</h5>
+                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                        <span aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <form>
+                                                                        Укажите ключ активации (пин код), который вы получилипо почте (email) после оплаты курса. Если вы не получили письмо или ключ не подходит, свяжитесь с технической поддержкой по почте <a class="link" href="mailto:help@ege-study.ru">help@ege-study.ru</a>
+                                                                        <div class="form-group mt-3">
+                                                                            <input type="text" class="form-control" placeholder="Укажите ключ активации">
+                                                                        </div>
+                                                                        Формат ключа: ХХХХХ-ХХХХХ-ХХХХХ-ХХХХХ
+                                                                        <div class="form-group">
+                                                                            <button type="submit" class="btn btn-primary mt-3">Активировать</button>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -215,10 +279,10 @@
                                             <div class="ege-welcome__event-body">
                                                 <div class="ege-welcome__time">
                                                     <i aria-hidden="true" class="fa fa-calendar-o"></i>
-                                                    05 июня в 11:00
+                                                    <a class="link link--fake">05 сентября в 13:00</a>
                                                 </div>
                                                 <div class="ege-welcome__topic">
-                                                    Прогрессии. Задачи на кредиты и вклады – подготовительные.
+                                                    Повторяем Часть 1. Алгебра, текстовые задачи, теорвер. День 1
                                                 </div>
                                                 <div class="ege-welcome__details">
                                                     <a class="link" href="#">Все мастер-классы</a>
@@ -227,10 +291,6 @@
                                         </div>
                                     </section>
                                 </div>
-
-
-
-
                             </div>
                         </div>
                         <div class="ege-course__body ege-card">
@@ -240,13 +300,7 @@
                             <div class="ege-course__sub-navigation">
                                 <ul class="nav nav-tabs nav-tabs-primary">
                                     <li class="nav-item">
-                                        <a class="nav-link active" data-toggle="tab" href="#tabe-1">Учебник и тренажер <span class="badge badge-pill badge-primary ml-2">50</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#tabe-2">Тесты <span class="badge badge-pill badge-light ml-2">16</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#tabe-2">Пробные ЕГЭ <span class="badge badge-pill badge-light ml-2">12</span></a>
+                                        <a class="nav-link active" data-toggle="tab" href="#tabe-2">Тесты <span class="badge badge-pill badge-light ml-2">1</span></a>
                                     </li>
                                 </ul>
                             </div>

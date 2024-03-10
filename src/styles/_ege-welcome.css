@@ -17,7 +17,7 @@
             }
 
             .ege-welcome__summary {
-                max-width: 419px;
+                max-width: 430px;
             }
                 .ege-welcome__heading {
                     margin-top: 0;
@@ -26,14 +26,27 @@
                     line-height: 29px;
                 }
 
+                .ege-welcome__params {
+                    margin-top: 15px;
+                    font-size: var(--body-font-size);
+                    line-height: var(--body-line-height);
+                    color: var(--text-secondary)
+                }
+                    .ege-welcome__line {
+
+                    }
+
                 .ege-welcome__description {
                     margin-top: 15px;
                     font-size: 16px;
                     line-height: 22px;
                 }
 
-                .ege-welcome__begin {
+                .ege-welcome__actions {
                     margin-top: 24px;
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 8px;
                 }
 
     .ege-welcome__event {
@@ -114,13 +127,24 @@
                         /*line-height: 29px;*/
                     }
 
+                    .ege-welcome__params {
+
+                    }
+                        .ege-welcome__line {
+                            margin-top: 8px;
+                        }
+
+                        .ege-welcome__line:first-child {
+                            margin-top: 0;
+                        }
+
                     .ege-welcome__description {
                         /*margin-top: 15px;*/
                         /*font-size: 16px;*/
                         /*line-height: 22px;*/
                     }
 
-                    .ege-welcome__begin {
+                    .ege-welcome__actions {
                         /*margin-top: 24px;*/
                     }
 
