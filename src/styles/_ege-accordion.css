@@ -43,7 +43,7 @@
                 background-repeat: no-repeat;
                 background-position: center center;
                 transform: scaleY(-1);
-                transition: transform .2s;
+                transition: transform 0.2s;
             }
 
             .ege-accordion__handler.collapsed::after {
