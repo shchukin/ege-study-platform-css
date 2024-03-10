@@ -125,6 +125,7 @@ gulp.task('clean', function () {
 
 gulp.task('manifest', function () {
     return gulp.src([
+        'src/index.html',
         'src/browserconfig.xml',
         'src/manifest.json',
         'src/humans.txt',
