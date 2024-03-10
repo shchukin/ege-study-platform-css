@@ -182,134 +182,151 @@
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#"><i aria-hidden="true" class="fa fa-long-arrow-left"></i> Мои курсы</a></li>
                         </ol>
-                        <h1 class="page-title">Онлайн-курс Математика 100 баллов (22/23 г.)</h1>
+                        <h1 class="page-title">Математика</h1>
                     </div>
                     <!-- End Breadcrumb-->
 
 
-                    <div class="ege-course">
-                        <div class="ege-course__navigation">
+                    <div class="ege-all-courses">
+                        <div class="ege-all-courses__navigation">
                             <ul class="nav nav-tabs nav-tabs-primary">
                                 <li class="nav-item">
-                                    <a class="nav-link active" data-toggle="tab" href="#course">Курс</a>
+                                    <a class="nav-link active" data-toggle="tab" href="#">Курсы <span class="badge badge-pill badge-primary ml-2">3</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#progress">Прогресс</a>
+                                    <a class="nav-link" data-toggle="tab" href="#">Мастер-классы <span class="badge badge-pill badge-light ml-2">4</span></a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="ege-course__jumbotron">
-                            <!-- Мобильные табы -->
-                            <div class="tab-content">
-                                <!-- Первая таба (Вводный текст и картинка) -->
-                                <div class="tab-pane fade show active" id="course">
-                                    <div class="ege-welcome">
-                                        <div class="ege-welcome__body">
-                                            <div class="ege-welcome__body-inner ege-card">
-                                                <img class="ege-welcome__illustration" src="../content/welcome-check-up@3x.png" width="220" alt="">
-                                                <div class="ege-welcome__summary">
-                                                    <h2 class="ege-welcome__heading">
-                                                        Добро пожаловать на курс!<br class="hidden-xs">
-                                                        Начни обучение с оценки своих знаний.
-                                                    </h2>
-                                                    <div class="ege-welcome__description">
-                                                        Пройди тест и получи примерное представление о своих сильных и слабых сторонах, что поможет тебе в обучении на курсе.
-                                                    </div>
-                                                    <div class="ege-welcome__actions">
-                                                        <a class="btn btn-primary" href="#">Начать тестирование</a>
-                                                    </div>
-                                                </div>
+                        <div class="ege-all-courses__filter">
+                            <div class="ege-filter">
+                                <div class="btn-group-round" role="group">
+                                    <button class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" type="button">
+                                        Фильтр
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <div class="ege-filter__widgets">
+                                            <div class="icheck-material-primary">
+                                                <input type="checkbox" id="primary" checked/>
+                                                <label for="primary">5-8 классы</label>
+                                            </div>
+                                            <div class="icheck-material-primary">
+                                                <input type="checkbox" id="primary" checked/>
+                                                <label for="primary">9 классы</label>
+                                            </div>
+                                            <div class="icheck-material-primary">
+                                                <input type="checkbox" id="primary" checked/>
+                                                <label for="primary">10-11 классы</label>
+                                            </div>
+                                            <div class="icheck-material-primary">
+                                                <input type="checkbox" id="primary" checked/>
+                                                <label for="primary">Для учителей</label>
+                                            </div>
+                                            <div class="icheck-material-primary">
+                                                <input type="checkbox" id="primary" checked/>
+                                                <label for="primary">Для родителей</label>
                                             </div>
                                         </div>
-                                        <section class="ege-welcome__event">
-                                            <div class="ege-welcome__event-inner ege-card">
-                                                <h3 class="ege-welcome__event-heading">
-                                                    Скоро начнётся
-                                                </h3>
-                                                <div class="ege-welcome__event-body">
-                                                    <div class="ege-welcome__time">
-                                                        <i aria-hidden="true" class="fa fa-calendar-o"></i>
-                                                        <a class="link link--fake">05 июня в 11:00</a>
-                                                    </div>
-                                                    <div class="ege-welcome__topic">
-                                                        Прогрессии. Задачи на кредиты и вклады – подготовительные.
-                                                    </div>
-                                                    <div class="ege-welcome__details">
-                                                        <a class="link" href="#">Все мастер-классы</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
-                                <!-- Вторая таба (бегунки и проценты) -->
-                                <div class="tab-pane fade" id="progress">
-                                    <div class="ege-progress">
-                                        <div class="ege-progress__item ege-card">
-                                            <div class="ege-chart__value">
-                                                <div class="ege-chart">
-                                                    <div class="ege-chart__visualization donut" data-peity='{ "fill": ["#7E8B2E", "#F6F4F2"]}'>1/5</div>
-                                                    <div class="ege-chart__value">60%</div>
-                                                </div>
-                                            </div>
-                                            <div class="ege-progress__data">
-                                                <div class="ege-progress__numbers"><span class="text-primary">26</span> <span class="ege-separator">/</span> 31</div>
-                                                <div class="ege-progress__label">Пройдено тем</div>
-                                            </div>
-                                        </div>
-                                        <div class="ege-progress__item ege-card">
-                                            <div class="ege-chart__value">
-                                                <div class="ege-chart">
-                                                    <div class="ege-chart__visualization donut" data-peity='{ "fill": ["#7E8B2E", "#F6F4F2"]}'>1/5</div>
-                                                    <div class="ege-chart__value">60%</div>
-                                                </div>
-                                            </div>
-                                            <div class="ege-progress__data">
-                                                <div class="ege-progress__numbers"><span class="text-primary">311</span> <span class="ege-separator">/</span> 320</div>
-                                                <div class="ege-progress__label">Решено задач</div>
-                                            </div>
-                                        </div>
-                                        <div class="ege-progress__item ege-card">
-                                            <div class="ege-chart__value">
-                                                <div class="ege-chart">
-                                                    <div class="ege-chart__visualization donut" data-peity='{ "fill": ["#7E8B2E", "#F6F4F2"]}'>1/5</div>
-                                                    <div class="ege-chart__value">60%</div>
-                                                </div>
-                                            </div>
-                                            <div class="ege-progress__data">
-                                                <div class="ege-progress__numbers"><span class="text-primary">8</span> <span class="ege-separator">/</span> 16</div>
-                                                <div class="ege-progress__label">Решено тестов</div>
-                                            </div>
+                                        <div class="dropdown-divider"></div>
+                                        <div class="ege-filter__actions">
+                                            <button class="btn btn-primary">Показать 34</button>
+                                            <button class="btn btn-link text-secondary">Сбросить</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="ege-course__body ege-card">
-                            <h2 class="ege-course__sub-heading">
-                                Программа обучения
-                            </h2>
-                            <div class="ege-course__sub-navigation">
-                                <ul class="nav nav-tabs nav-tabs-primary">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" data-toggle="tab" href="#tabe-1">Учебник и тренажер <span class="badge badge-pill badge-primary ml-2">50</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#tabe-2">Тесты <span class="badge badge-pill badge-light ml-2">16</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#tabe-2">Пробные ЕГЭ <span class="badge badge-pill badge-light ml-2">12</span></a>
-                                    </li>
-                                </ul>
+                        <div class="ege-all-courses__list">
+                            <div class="ege-all-courses__item">
+                                <div class="ege-course-tile ege-card">
+                                    <a class="ege-course-tile__preview" href="#">
+                                        <img class="ege-course-tile__image" src="../temp/course-tile-a@2x.jpg" alt="">
+                                    </a>
+                                    <div class="ege-course-tile__heading">
+                                        <a class="link link--inherit" href="#">Онлайн-марафон Вспомнить все перед 11 классом</a>
+                                    </div>
+                                    <div class="ege-course-tile__note">
+                                        Доступ до 01.07.2023
+                                    </div>
+                                </div>
                             </div>
-                            <div class="ege-course__content">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias amet aperiam aspernatur assumenda at dignissimos distinctio dolor dolore doloremque ea error excepturi exercitationem impedit inventore necessitatibus, neque nesciunt nulla pariatur porro quasi quia quibusdam reiciendis rerum soluta sunt ut vel vitae voluptas voluptatum. A beatae dolor doloremque dolores dolorum, ducimus, earum excepturi harum laborum non quae, quibusdam ut. Ab accusantium amet consequatur deserunt
-                                distinctio dolor dolores earum eius eos eum exercitationem incidunt inventore iste labore nemo nulla, odio odit porro quam quis quos ratione repellendus sapiente similique, sint velit, vitae? Commodi debitis iusto magnam recusandae? Dicta distinctio dolore inventore officiis, praesentium provident repellendus. Consectetur fuga laudantium molestiae nulla pariatur tempore vero vitae! Architecto assumenda cum deserunt ducimus eos exercitationem expedita fugiat iure mollitia odio,
-                                officiis praesentium quibusdam, quisquam, repellendus rerum unde voluptatum! Adipisci aliquid aut ea molestias qui. Ad architecto at consequatur, deserunt dolore dolorum eaque earum, exercitationem explicabo impedit in inventore ipsa laborum minima officia praesentium quam quidem, quis quisquam quos rerum sint suscipit unde! Et facilis magnam qui rerum vel! Animi aperiam aspernatur assumenda atque commodi debitis dicta distinctio dolorum enim expedita harum iusto maxime odio, officia
-                                pariatur quia ratione similique sunt vel velit. Ad architecto delectus exercitationem illum, inventore ipsam nihil repellendus suscipit tenetur totam! Ab aperiam asperiores blanditiis doloremque inventore ipsam iure iusto laboriosam, minima molestiae non obcaecati odit omnis perferendis quas quisquam quod saepe sed sint, tempora veniam vitae voluptatum. At, incidunt, veniam? Accusamus eligendi eum minima! Eum fugiat fugit in iusto minus nobis officia perferendis placeat quasi quia.
-                                Deleniti eaque maiores mollitia. Amet asperiores aspernatur, at atque autem beatae commodi culpa cum debitis dignissimos dolorem doloremque doloribus error eveniet in ipsam ipsum iure magni nemo non obcaecati odit porro provident quam quibusdam quisquam quo quos ratione recusandae repellendus sapiente sed sit suscipit tenetur unde ut voluptates! Accusamus amet animi aperiam culpa dolore, earum eius est ex expedita facere facilis fugit inventore ipsa libero magnam magni maiores neque
-                                nobis odit omnis optio pariatur perspiciatis possimus quidem saepe sit sunt tempora temporibus tenetur voluptatibus. Dolores, excepturi, iure. Aliquid corporis dolor eos expedita in ipsa nobis officia pariatur perferendis possimus sequi, suscipit tempora temporibus. Accusantium consectetur consequuntur harum id provident, quis recusandae saepe veniam! Ad aperiam aspernatur, consequatur dolorem, ea excepturi explicabo ipsam iste iure iusto labore laborum libero minima mollitia non
-                                perferendis praesentium quasi sed, tempora totam ullam vero vitae! Ab amet fuga perspiciatis quasi?
+                            <div class="ege-all-courses__item">
+                                <div class="ege-course-tile ege-card">
+                                    <a class="ege-course-tile__preview" href="#">
+                                        <img class="ege-course-tile__image" src="../temp/course-tile-b@2x.jpg" alt="">
+                                    </a>
+                                    <div class="ege-course-tile__heading">
+                                        <a class="link link--inherit" href="#">Онлайн-курс Математика 100 баллов (23/24 г.) Лето в подарок!</a>
+                                    </div>
+                                    <div class="ege-course-tile__note">
+                                        Доступ до 01.07.2023
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ege-all-courses__item">
+                                <div class="ege-course-tile ege-card">
+                                    <a class="ege-course-tile__preview" href="#">
+                                        <img class="ege-course-tile__image" src="../temp/course-tile-c@2x.jpg" alt="">
+                                    </a>
+                                    <div class="ege-course-tile__heading">
+                                        <a class="link link--inherit" href="#">Онлайн-курс "ОГЭ на 5!" для 9-классников</a>
+                                    </div>
+                                    <div class="ege-course-tile__note">
+                                        Доступ до 01.07.2023
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ege-all-courses__item">
+                                <div class="ege-course-tile ege-card">
+                                    <a class="ege-course-tile__preview" href="#">
+                                        <img class="ege-course-tile__image" src="../temp/course-tile-d@2x.jpg" alt="">
+                                    </a>
+                                    <div class="ege-course-tile__heading">
+                                        <a class="link link--inherit" href="#">Мини-курс Метод координат в Задаче 13 (стереометрия) с нуля!</a>
+                                    </div>
+                                    <div class="ege-course-tile__note">
+                                        Доступ до 01.07.2023
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ege-all-courses__item">
+                                <div class="ege-course-tile ege-card">
+                                    <a class="ege-course-tile__preview" href="#">
+                                        <img class="ege-course-tile__image" src="../temp/course-tile-b@2x.jpg" alt="">
+                                    </a>
+                                    <div class="ege-course-tile__heading">
+                                        <a class="link link--inherit" href="#">Мини-курс "Задачи 3 и 4 ЕГЭ-2024, +4 балла за Теорию вероятностей</a>
+                                    </div>
+                                    <div class="ege-course-tile__note">
+                                        Доступ до 01.07.2023
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ege-all-courses__item">
+                                <div class="ege-course-tile ege-card">
+                                    <a class="ege-course-tile__preview" href="#">
+                                        <img class="ege-course-tile__image" src="../temp/course-tile-c@2x.jpg" alt="">
+                                    </a>
+                                    <div class="ege-course-tile__heading">
+                                        <a class="link link--inherit" href="#">Как преподавателю тратить меньше времени. Мини-курс Анны Малковой для учителей</a>
+                                    </div>
+                                    <div class="ege-course-tile__note">
+                                        Доступ до 01.07.2023
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ege-all-courses__item">
+                                <div class="ege-course-tile ege-card">
+                                    <a class="ege-course-tile__preview" href="#">
+                                        <img class="ege-course-tile__image" src="../temp/course-tile-d@2x.jpg" alt="">
+                                    </a>
+                                    <div class="ege-course-tile__heading">
+                                        <a class="link link--inherit" href="#">Онлайн-курс математика ОГЭ для преподавателей и родителей 23/24</a>
+                                    </div>
+                                    <div class="ege-course-tile__note">
+                                        Доступ до 01.07.2023
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
