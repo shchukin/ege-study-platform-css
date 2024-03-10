@@ -1,0 +1,99 @@
+.ege-settings {
+
+}
+    .ege-settings__navigation {
+
+    }
+
+    .ege-settings__body {
+        margin-top: 30px;
+        padding: 30px;
+    }
+        .ege-settings__profile {
+
+        }
+            .ege-settings__summary {
+                display: flex;
+                align-items: flex-start;
+                gap: 24px;
+            }
+                .ege-settings__column {
+                    flex-grow: 1;
+                    max-width: 400px;
+                }
+
+            .ege-settings__group {
+                margin-top: 32px;
+                border-top: 1px solid #EFEAE4;
+                padding-top: 32px;
+            }
+
+            .ege-settings__submit {
+                margin-top: 32px;
+                border-top: 1px solid #EFEAE4;
+                padding-top: 32px;
+            }
+
+
+            .ege-settings__profile .form-control {
+                max-width: 400px;
+            }
+
+        .ege-settings__notifications {
+            max-width: 900px;
+        }
+            .ege-settings__intro {
+
+            }
+
+            .ege-settings__notifications-group {
+                margin-top: 24px;
+            }
+
+            .ege-settings__alt-submit {
+                margin-top: 32px;
+            }
+
+@media (width < 768px) {
+
+    .ege-settings {
+
+    }
+        .ege-settings__navigation {
+
+        }
+
+        .ege-settings__body {
+            /*margin-top: 30px;*/
+            /*padding: 30px;*/
+        }
+            .ege-settings__profile {
+
+            }
+                .ege-settings__summary {
+                    display: block;
+                    /*align-items: flex-start;*/
+                    /*gap: 24px;*/
+                }
+                    .ege-settings__column {
+                        /*flex-grow: 1;*/
+                        /*max-width: 400px;*/
+                    }
+
+                .ege-settings__group {
+                    /*margin-top: 32px;*/
+                    /*border-top: 1px solid #EFEAE4;*/
+                    /*padding-top: 32px;*/
+                }
+
+                .ege-settings__submit {
+                    /*margin-top: 32px;*/
+                    /*border-top: 1px solid #EFEAE4;*/
+                    /*padding-top: 32px;*/
+                }
+
+
+            .ege-settings__profile .form-control {
+                /*max-width: 400px;*/
+            }
+}
