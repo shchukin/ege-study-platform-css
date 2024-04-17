@@ -1,0 +1,7 @@
+.ege-logged-as {
+    padding: 8px 20px 4px;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--gray);
+    text-align: center;
+}
