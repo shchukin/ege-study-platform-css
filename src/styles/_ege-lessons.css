@@ -1,0 +1,90 @@
+.ege-lessons {
+    --padding: 14px;
+}
+
+
+.ege-lessons {
+    width: 100%;
+}
+    .ege-lessons__body {
+
+    }
+        .ege-lessons__row {
+            border-top: 1px solid var(--secondary-2);
+        }
+
+        .ege-lessons__row:first-child {
+            border-top: none;
+        }
+            .ege-lessons__status {
+                width: 1px;
+                padding: var(--padding) 0 var(--padding) 12px;
+            }
+
+            .ege-lessons__heading {
+                padding: var(--padding) 16px;
+                font-weight: inherit;
+            }
+
+            .ege-lessons__duration {
+                width: 102px;
+                padding: var(--padding) 16px var(--padding) 0;
+                white-space: nowrap;
+            }
+
+            .ege-lessons__progress {
+                width: 56px;
+                padding: var(--padding) 12px var(--padding) 0;
+                white-space: nowrap;
+            }
+
+
+
+@media (width < 768px) {
+
+    .ege-lessons {
+        /*--padding: 14px;*/
+    }
+
+
+    .ege-lessons {
+        display: block;
+        /*width: 100%;*/
+    }
+        .ege-lessons__body {
+            display: block;
+        }
+            .ege-lessons__row {
+                display: block;
+                /*border-top: 1px solid var(--secondary-2);*/
+            }
+
+            .ege-lessons__row:first-child {
+                /*border-top: none;*/
+            }
+                .ege-lessons__status {
+                    display: block;
+                    /*width: 1px;*/
+                    /*padding: var(--padding) 0 var(--padding) 12px;*/
+                }
+
+                .ege-lessons__heading {
+                    display: block;
+                    /*padding: var(--padding) 16px;*/
+                    /*font-weight: inherit;*/
+                }
+
+                .ege-lessons__duration {
+                    display: block;
+                    /*width: 102px;*/
+                    /*padding: var(--padding) 16px var(--padding) 0;*/
+                    /*white-space: nowrap;*/
+                }
+
+                .ege-lessons__progress {
+                    display: block;
+                    /*width: 56px;*/
+                    /*padding: var(--padding) 12px var(--padding) 0;*/
+                    /*white-space: nowrap;*/
+                }
+}
