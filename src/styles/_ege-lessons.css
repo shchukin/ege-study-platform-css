@@ -5,6 +5,8 @@
 
 .ege-lessons {
     width: 100%;
+    border-collapse: collapse;
+    vertical-align: top;
 }
     .ege-lessons__body {
 

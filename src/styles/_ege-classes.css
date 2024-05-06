@@ -1,0 +1,104 @@
+.ege-classes {
+    --padding: 12px;
+}
+
+
+.ege-classes {
+
+}
+    .ege-classes__month-heading {
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-weight: bold;
+        font-size: var(--body-font-size);
+        line-height: var(--body-line-height);
+    }
+
+    .ege-classes__section {
+        margin-top: 14px;
+        width: 100%;
+        border-collapse: collapse;
+        vertical-align: top;
+    }
+        .ege-classes__body {
+
+        }
+            .ege-classes__row {
+                border-top: 1px solid var(--secondary-2);
+            }
+
+            .ege-classes__row:first-child {
+                border-top: none;
+            }
+                .ege-classes__status {
+                    width: 1px;
+                    padding: var(--padding) 0 var(--padding) 12px;
+                }
+
+                .ege-classes__date {
+                    width: 200px;
+                    padding: var(--padding) 16px;
+                    font-size: var(--body-font-size);
+                    line-height: var(--body-line-height);
+                    white-space: nowrap;
+                }
+
+                .ege-classes__heading {
+                    padding: var(--padding) 0;
+                    font-weight: inherit;
+                    font-size: var(--body-font-size);
+                    line-height: var(--body-line-height);
+                }
+
+
+@media (width < 768px) {
+
+    .ege-classes {
+
+    }
+        .ege-classes__month-heading {
+
+        }
+
+        .ege-classes__section {
+            display: block;
+        }
+            .ege-classes__body {
+                display: block;
+            }
+                .ege-classes__row {
+                    padding-top: 12px;
+                    padding-bottom: 19px;
+                    display: grid;
+                    grid-template-columns: auto 1fr;
+                    grid-template-areas:
+                        "top-left    top-right"
+                        "bottom-left bottom-right"
+                }
+
+                .ege-classes__row:first-child {
+
+                }
+                    .ege-classes__status {
+                        display: grid;
+                        grid-area: top-left;
+                        width: auto;
+                        padding: 0 16px 0 0;
+                        align-items: center;
+                    }
+
+                    .ege-classes__date {
+                        /*display: block;*/
+                        grid-area: top-right;
+                        /*width: auto;*/
+                        padding: 0;
+                        /*text-align: right;*/
+                    }
+
+                    .ege-classes__heading {
+                        display: block;
+                        grid-area: bottom-right;
+                        padding: 14px 0 0;
+                    }
+
+}
