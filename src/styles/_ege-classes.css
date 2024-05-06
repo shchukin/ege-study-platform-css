@@ -73,7 +73,7 @@
                     grid-template-columns: auto 1fr;
                     grid-template-areas:
                         "top-left    top-right"
-                        "bottom-left bottom-right"
+                        "bottom-left bottom-right";
                 }
 
                 .ege-classes__row:first-child {
@@ -100,5 +100,4 @@
                         grid-area: bottom-right;
                         padding: 14px 0 0;
                     }
-
 }

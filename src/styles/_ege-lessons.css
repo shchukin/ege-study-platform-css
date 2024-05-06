@@ -68,7 +68,7 @@
                 grid-template-columns: auto 1fr 1fr;
                 grid-template-areas:
                     "left top top"
-                    "left bottomleft bottomriigh"
+                    "left bottomleft bottomriigh";
             }
 
             .ege-lessons__row:first-child {
