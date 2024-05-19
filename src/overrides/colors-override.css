@@ -477,7 +477,7 @@ hr {
 .page-item.disabled .page-link {
     color: var(--text-secondary);
     background-color: var(--secondary-2);
-    border-color: var(--divider-color)
+    border-color: var(--divider-color);
 }
 
 
@@ -506,6 +506,17 @@ hr {
 .form-control:focus {
     border-color: var(--focus-ring);
     box-shadow: 0 0 0 0.2rem var(--focus-ring);
+}
+
+/* Empty, not touched state: */
+.has-resting-state:placeholder-shown:not(:hover):not(:focus-within) {
+    background-color: var(--secondary-1-bg);
+    border-color: var(--secondary-1-bg);
+    color: var(--text-secondary-2);
+}
+
+.has-resting-state:placeholder-shown::placeholder {
+    color: var(--text-secondary-2);
 }
 
 .btn {
