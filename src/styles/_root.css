@@ -28,3 +28,16 @@
         --container-padding: 16px;
     }
 }
+
+
+
+:root {
+    --rakuda-container-padding: 30px;
+}
+
+
+@media (width < 740px) {
+    :root {
+        --rakuda-container-padding: 24px;
+    }
+}

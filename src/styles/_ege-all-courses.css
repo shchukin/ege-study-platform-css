@@ -2,7 +2,8 @@
     position: relative;
 }
     .ege-all-courses__navigation {
-
+        margin-left: calc(-1 * var(--rakuda-container-padding));
+        margin-right: calc(-1 * var(--rakuda-container-padding));
     }
 
     .ege-all-courses__filter {
@@ -22,3 +23,35 @@
             margin-left: auto;
             margin-right: auto;
         }
+
+
+
+@media (width < 740px) {
+
+    .ege-all-courses {
+        /*position: relative;*/
+    }
+        .ege-all-courses__navigation {
+            /*margin-left: calc(-1 * var(--rakuda-container-padding));*/
+            /*margin-right: calc(-1 * var(--rakuda-container-padding));*/
+        }
+
+        .ege-all-courses__filter {
+            margin-top: 20px;
+            position: static;
+        }
+
+        .ege-all-courses__list {
+            /*margin-top: 30px;*/
+            /*display: grid;*/
+            /*grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));*/
+            /*gap: 12px;*/
+        }
+            .ege-all-courses__item {
+                /*max-width: 380px;*/
+                /*margin-left: auto;*/
+                /*margin-right: auto;*/
+            }
+}
+
+

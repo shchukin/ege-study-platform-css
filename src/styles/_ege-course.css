@@ -2,7 +2,8 @@
 
 }
     .ege-course__navigation {
-
+        margin-left: calc(-1 * var(--rakuda-container-padding));
+        margin-right: calc(-1 * var(--rakuda-container-padding));
     }
 
     .ege-course__jumbotron {
@@ -72,8 +73,8 @@
 
             }
                 .ege-course__sub-navigation .nav {
-                    padding-left: 10px;
-                    padding-right: 10px;
+                    padding-left: 30px;
+                    padding-right: 30px;
                 }
 
                 .ege-course__filter {
@@ -124,8 +125,8 @@
 
             }
                 .ege-course__sub-navigation .nav {
-                    /*padding-left: 10px;*/
-                    /*padding-right: 10px;*/
+                    padding-left: 30px;
+                    padding-right: 30px;
                 }
 
                 .ege-course__filter {

@@ -2,7 +2,8 @@
 
 }
     .ege-textbook__navigation {
-
+        margin-left: calc(-1 * var(--rakuda-container-padding));
+        margin-right: calc(-1 * var(--rakuda-container-padding));
     }
 
     .ege-textbook__progress {
