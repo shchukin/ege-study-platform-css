@@ -340,12 +340,19 @@ hr {
 
 /* Dropdown */
 
+.dropdown-menu {
+    border-radius: 12px;
+}
+
 .dropdown-divider {
+    margin-top: 8px;
+    margin-bottom: 8px;
     border-color: var(--divider-color);
 }
 
 .dropdown-menu a {
-    color: var(--accent-link);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
