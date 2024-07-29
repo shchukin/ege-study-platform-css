@@ -1,16 +1,15 @@
 :root {
     /* Figma */
-    --primary: #201D1B;
+    --primary: #111111;
     --accent: #7E8B2E;
-    --accent-light: #F1F2DF;
-    --accent-link: #FC5E38;
-    --secondary-4: #CBC0B4;
+    --accent-link: #111111;
+    --secondary-4: #C1C1C1;
     --secondary-3: #E0D8D0;
     --secondary-2: #EFEAE5;
-    --secondary-1-bg: #F6F4F2;
+    --secondary-1-bg: #F6F6F6;
     --accent-2: #FFF5E7;
     --divider-color: #EFEAE5;
-    --text-secondary: #968779;
+    --text-secondary: #A7A7A7;
     --text-secondary-2: #C7BBB0;
     --text-secondary-3: #E0D8D0;
     --shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.04);
@@ -20,7 +19,7 @@
     --success: var(--accent);
     --danger: var(--accent-link);
     --focus-ring: rgba(252, 94, 56, 0.5);
-    --panel-bg: #F6F4F2;
+    --panel-bg: #F4F4F4;
 }
 
 
@@ -29,6 +28,7 @@
 .dropdown-menu li {
     cursor: pointer;
 }
+
 
 /* colors */
 

@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Онлайн</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- schema.org (google plus) -->
+        <meta itemprop="url" content="[%url%]">
+        <meta itemprop="image" content="[%img%]">
+        <meta itemprop="name" content="[%title%]">
+        <meta itemprop="description" content="[%description%]">
+
+        <!-- ogp.me (facebook & vkontakte) -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="[%url%]">
+        <meta property="og:image" content="[%img%]">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="675">
+        <meta property="og:title" content="[%title%]">
+        <meta property="og:description" content="[%description%]">
+        <meta property="fb:app_id" content="[%facebook-app-id%]">
+
+        <!-- twitter -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:url" content="[%url%]">
+        <meta name="twitter:image" content="[%img%]">
+        <meta name="twitter:title" content="[%title%]">
+        <meta name="twitter:description" content="[%description%]">
+        <meta name="twitter:site" content="@user">
+        <meta name="twitter:creator" content="@user">
+
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+        <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#FFFFFF">
+
+        <!-- manifest -->
+        <link rel="manifest" href="../manifest.json">
+        <meta name="theme-color" content="#FFFFFF">
+        <meta name="msapplication-config" content="../browserconfig.xml">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+
+        <!-- Vendors -->
+        <link href="../vendors/rakuda/assets/plugins/dropzone/css/dropzone.css" rel="stylesheet">
+        <link href="../vendors/rakuda/assets/plugins/simplebar/css/simplebar.css" rel="stylesheet"/>
+        <link href="../vendors/rakuda/assets/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="../vendors/rakuda/assets/css/animate.css" rel="stylesheet"/>
+        <link href="../vendors/rakuda/assets/css/icons.css" rel="stylesheet"/>
+        <link href="../vendors/rakuda/assets/css/sidebar-menu.css" rel="stylesheet"/>
+        <link href="../vendors/rakuda/assets/css/app-style.css" rel="stylesheet"/>
+
+        <!-- Actual styles -->
+        <link href="../fonts/fonts.css" rel="stylesheet"/>
+        <link href="../overrides/colors-override-egenator.css" rel="stylesheet"/>
+        <link href="../styles/style.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <!--[if IE]>
+            <div class="browser">
+                Вы используете устаревший браузер. Для корректной работы этого сайта и большинства других вам необходимо перейти на современный&nbsp;браузер.
+            </div>
+        <![endif]-->
+
+        <!-- Start wrapper-->
+        <div id="wrapper">
+
+            <!--Start sidebar-wrapper-->
+            <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
+                <div class="brand-logo">
+                    <a href="index.html">
+                        <img src="../content/logo-icon-sidebar.png" alt="logo icon">
+                    </a>
+                </div>
+                <ul class="sidebar-menu do-nicescrol">
+                    <li class="sidebar-header">
+                        Очное направление
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="/groups/">
+                            <i class="fa fa-users"></i>
+                            <span>Мои группы</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-header">
+                        Обучение
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="#">
+                            <i class="fa fa-folder"></i>
+                            <span>Предметы</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="sidebar-submenu">
+                            <li>
+                                <a href="/subject/8/"><i aria-hidden="true" class="fa fa-angle-double-right"></i> <span>Алгебра</span></a>
+                            </li>
+                            <li>
+                                <a href="/subject/4/"><i aria-hidden="true" class="fa fa-angle-double-right"></i> <span>Английский язык</span></a>
+                            </li>
+                            <li>
+                                <a href="/subject/9/"><i aria-hidden="true" class="fa fa-angle-double-right"></i> <span>История</span></a>
+                            </li>
+                            <li>
+                                <a href="/subject/5/"><i aria-hidden="true" class="fa fa-angle-double-right"></i> <span>Литература</span></a>
+                            </li>
+                            <li>
+                                <a href="/subject/1/"><i aria-hidden="true" class="fa fa-angle-double-right"></i> <span>Математика</span></a>
+                            </li>
+                            <li>
+                                <a href="/subject/2/"><i aria-hidden="true" class="fa fa-angle-double-right"></i> <span>Русский язык</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a class="waves-effect" href="/profile/courses/"><i class="fa fa-book"></i> <span>Мои курсы</span></a>
+                    </li>
+                    <li class="sidebar-header">Профиль</li>
+                    <li>
+                        <a class="waves-effect" href="/profile/statistics/"><i class="fa fa-trophy"></i> <span>Мои достижения</span></a>
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="/profile/settings/"><i class="fa fa-cogs"></i> <span>Мои настройки</span></a>
+                    </li>
+                </ul>
+            </div>
+            <!--End sidebar-wrapper-->
+
+            <!--Start topbar header-->
+            <header class="topbar-nav">
+                <nav class="navbar navbar-expand fixed-top bg-white">
+                    <ul class="navbar-nav mr-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link toggle-menu" href="javascript:void();">
+                                <i class="icon-menu menu-icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav align-items-center right-nav-link">
+
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown" href="#">
+                                <span class="user-profile"><img src="https://via.placeholder.com/110x110" class="img-circle" alt="user avatar"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li class="ege-logged-as">
+                                    Вы вошли под пользователем:
+                                </li>
+                                <li class="dropdown-item user-details">
+                                    <a href="#">
+                                        <div class="media">
+                                            <div class="avatar"><img class="align-self-start mr-3" src="https://via.placeholder.com/110x110" alt="user avatar"></div>
+                                            <div class="media-body">
+                                                <h6 class="mt-2 user-title">Katrina Mccoy</h6>
+                                                <p class="user-subtitle">mccoy@example.com</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-item"><i class="icon-envelope mr-2"></i> Inbox</li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-item"><i class="icon-wallet mr-2"></i> Account</li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-item"><i class="icon-settings mr-2"></i> Setting</li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-item"><i class="icon-power mr-2"></i> Logout</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <!--End topbar header-->
+
+            <div class="clearfix"></div>
+
+            <div class="content-wrapper">
+                <div class="container-fluid">
+
+                    <!-- Breadcrumb-->
+                    <div class="pt-3 pb-3">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#"><i aria-hidden="true" class="fa fa-long-arrow-left"></i> Мои курсы</a></li>
+                        </ol>
+                        <h1 class="page-title">Онлайн-курс Математика 100 баллов (22/23 г.)</h1>
+                    </div>
+                    <!-- End Breadcrumb-->
+
+
+                    <div class="ege-course">
+                        <div class="ege-course__navigation">
+                            <ul class="nav nav-tabs nav-tabs-primary">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#course">Курс</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#progress">Прогресс</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ege-course__jumbotron">
+                            <!-- Мобильные табы -->
+                            <div class="tab-content">
+                                <!-- Первая таба (Вводный текст и картинка) -->
+                                <div class="tab-pane fade show active" id="course">
+                                    <div class="ege-welcome">
+                                        <div class="ege-welcome__body">
+                                            <div class="ege-welcome__body-inner ege-card">
+                                                <img class="ege-welcome__illustration" src="../content/welcome-check-up@3x.png" width="220" alt="">
+                                                <div class="ege-welcome__summary">
+                                                    <h2 class="ege-welcome__heading">
+                                                        Добро пожаловать на курс!<br class="hidden-xs">
+                                                        Начни обучение с оценки своих знаний.
+                                                    </h2>
+                                                    <div class="ege-welcome__description">
+                                                        Пройди тест и получи примерное представление о своих сильных и слабых сторонах, что поможет тебе в обучении на курсе.
+                                                    </div>
+                                                    <div class="ege-welcome__actions">
+                                                        <a class="btn btn-primary" href="#">Начать тестирование</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <section class="ege-welcome__event">
+                                            <div class="ege-welcome__event-inner ege-card">
+                                                <h3 class="ege-welcome__event-heading">
+                                                    Скоро начнётся
+                                                </h3>
+                                                <div class="ege-welcome__event-body">
+                                                    <div class="ege-welcome__time">
+                                                        <i aria-hidden="true" class="fa fa-calendar-o"></i>
+                                                        <a class="link link--fake">05 июня в 11:00</a>
+                                                    </div>
+                                                    <div class="ege-welcome__topic">
+                                                        Прогрессии. Задачи на кредиты и вклады – подготовительные.
+                                                    </div>
+                                                    <div class="ege-welcome__details">
+                                                        <a class="link" href="#">Все мастер-классы</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                                <!-- Вторая таба (бегунки и проценты) -->
+                                <div class="tab-pane fade" id="progress">
+                                    <div class="ege-progress">
+                                        <div class="ege-progress__item ege-card">
+                                            <div class="ege-chart__value">
+                                                <div class="ege-chart">
+                                                    <div class="ege-chart__visualization donut" data-peity='{ "fill": ["#7E8B2E", "#F6F4F2"]}'>1/5</div>
+                                                    <div class="ege-chart__value">60%</div>
+                                                </div>
+                                            </div>
+                                            <div class="ege-progress__data">
+                                                <div class="ege-progress__numbers"><span class="text-primary">26</span> <span class="ege-separator">/</span> 31</div>
+                                                <div class="ege-progress__label">Пройдено тем</div>
+                                            </div>
+                                        </div>
+                                        <div class="ege-progress__item ege-card">
+                                            <div class="ege-chart__value">
+                                                <div class="ege-chart">
+                                                    <div class="ege-chart__visualization donut" data-peity='{ "fill": ["#7E8B2E", "#F6F4F2"]}'>1/5</div>
+                                                    <div class="ege-chart__value">60%</div>
+                                                </div>
+                                            </div>
+                                            <div class="ege-progress__data">
+                                                <div class="ege-progress__numbers"><span class="text-primary">311</span> <span class="ege-separator">/</span> 320</div>
+                                                <div class="ege-progress__label">Решено задач</div>
+                                            </div>
+                                        </div>
+                                        <div class="ege-progress__item ege-card">
+                                            <div class="ege-chart__value">
+                                                <div class="ege-chart">
+                                                    <div class="ege-chart__visualization donut" data-peity='{ "fill": ["#7E8B2E", "#F6F4F2"]}'>1/5</div>
+                                                    <div class="ege-chart__value">60%</div>
+                                                </div>
+                                            </div>
+                                            <div class="ege-progress__data">
+                                                <div class="ege-progress__numbers"><span class="text-primary">8</span> <span class="ege-separator">/</span> 16</div>
+                                                <div class="ege-progress__label">Решено тестов</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ege-course__body ege-card">
+                            <h2 class="ege-course__sub-heading">
+                                Программа обучения
+                            </h2>
+                            <div class="ege-course__sub-navigation">
+                                <ul class="nav nav-tabs nav-tabs-primary">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#tabe-1">Учебник и тренажер <span class="badge badge-pill badge-primary ml-2">50</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabe-2">Тесты <span class="badge badge-pill badge-light ml-2">16</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabe-2">Пробные ЕГЭ <span class="badge badge-pill badge-light ml-2">12</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="ege-course__content">
+                                <table class="ege-lessons">
+                                    <tbody class="ege-lessons__body">
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                Входящее тестирование по Профильной математике
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 15 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                20
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                1. Тригонометрия. Контрольная работа
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 9 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-primary">6</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                7
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                2. Стереометрия. Контрольная работа
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 8 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                20
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                3. Неравенства. Контрольная работа
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 10 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                7
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                4. Планиметрия. Контрольная работа
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 5 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                11
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                5. Экономические задачи. Контрольная работа
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 6 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                7
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                6. Параметры. Контрольная работа
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 7 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                12
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                7. Числа и их свойства. Контрольная работа
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 10 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                8
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                Вариант 1
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 10 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                8
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                Вариант 2
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 10 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                8
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                Вариант 3
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 10 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                8
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                Вариант 4
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 10 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                8
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                Вариант 5
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 10 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                8
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                Вариант 6
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 10 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                8
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                Вариант 7
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 10 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                8
+                                            </td>
+                                        </tr>
+                                        <tr class="ege-lessons__row">
+                                            <td class="ege-lessons__status">
+                                                <span class="ti-shopping-cart text-danger"></span>
+                                            </td>
+                                            <th class="ege-lessons__heading">
+                                                Вариант 8
+                                            </th>
+                                            <td class="ege-lessons__duration">
+                                                <span class="text-secondary">
+                                                    <i aria-hidden="true" class="fa fa-clock-o mr-1"></i> 10 мин
+                                                </span>
+                                            </td>
+                                            <td class="ege-lessons__progress">
+                                                <span class="text-secondary-3">0</span>
+                                                <span class="text-secondary-3 ml-1 mr-1">/</span>
+                                                8
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End container-fluid-->
+
+            </div><!--End content-wrapper-->
+            <!--Start Back To Top Button-->
+            <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
+            <!--End Back To Top Button-->
+
+            <!--Start footer-->
+            <footer class="footer">
+                <div class="container">
+                    <div class="text-center">
+                        © 2023 ООО «ЕГЭ-Студия»
+                    </div>
+                </div>
+            </footer>
+            <!--End footer-->
+
+        </div><!--End wrapper-->
+
+
+        <!-- Bootstrap core JavaScript-->
+        <script src="../vendors/rakuda/assets/js/jquery.min.js"></script>
+        <script src="../vendors/rakuda/assets/js/popper.min.js"></script>
+        <script src="../vendors/rakuda/assets/js/bootstrap.min.js"></script>
+        <script src="../vendors/rakuda/assets/plugins/simplebar/js/simplebar.js"></script>
+        <script src="../vendors/rakuda/assets/js/waves.js"></script>
+        <script src="../vendors/rakuda/assets/js/sidebar-menu.js"></script>
+        <script src="../vendors/rakuda/assets/js/app-script.js"></script>
+        <script src="../vendors/rakuda/assets/plugins/dropzone/js/dropzone.js"></script>
+        <script src="../vendors/rakuda/assets/plugins/peity/jquery.peity.min.js"></script>
+        <script src="../vendors/rakuda/assets/plugins/peity/jquery.peity.init.js"></script>
+
+    </body>
+</html>
