@@ -53,9 +53,8 @@
 
         <!-- Actual styles -->
         <link href="../fonts/fonts.css?1722223601" rel="stylesheet"/>
-        <link href="../overrides/colors-override.css?1722223601" rel="stylesheet"/>
+        <link href="../overrides/colors-override-egenator.css?1722223601" rel="stylesheet"/>
         <link href="../styles/style.css?1722223601" rel="stylesheet">
-        <link rel="stylesheet" href="../styles/_root.css?1722223601">
 
     </head>
     <body>
@@ -73,7 +72,7 @@
             <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
                 <div class="brand-logo">
                     <a href="index.html">
-                        <img src="../content/logo-icon-sidebar.png" alt="logo icon">
+                        <img src="../content/portal-logo-black@2x.png" alt="logo icon">
                     </a>
                 </div>
                 <ul class="sidebar-menu do-nicescrol">
@@ -186,59 +185,154 @@
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#"><i aria-hidden="true" class="fa fa-long-arrow-left"></i> Мои курсы</a></li>
                         </ol>
-                        <h1 class="page-title">Настройки</h1>
+                        <h1 class="page-title">Математика</h1>
                     </div>
                     <!-- End Breadcrumb-->
 
-                    <div class="ege-settings">
-                        <div class="ege-settings__navigation">
+
+                    <div class="ege-all-courses">
+                        <div class="ege-all-courses__navigation">
                             <ul class="nav nav-tabs nav-tabs-primary">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#tabe-1">Профиль</a>
+                                    <a class="nav-link active" data-toggle="tab" href="#">Курсы <span class="badge badge-pill badge-primary ml-2">3</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#tabe-2">Уведомления</a>
+                                    <a class="nav-link" data-toggle="tab" href="#">Мастер-классы <span class="badge badge-pill badge-light ml-2">4</span></a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="ege-settings__body ege-card">
-                            <form class="ege-settings__profile">
-                                <div class="ege-settings__summary">
-                                    <div class="ege-settings__column">
-                                        <div class="form-group mt-2">
-                                            <label for="old-password">Ф.И.О.</label>
-                                            <input type="text" class="form-control has-resting-state" placeholder="Введите вашу фамилию, имя и отчество" id="name">
+                        <div class="ege-all-courses__filter">
+                            <div class="ege-filter">
+                                <div class="btn-group-round" role="group">
+                                    <button class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" type="button">
+                                        Фильтр
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <div class="ege-filter__widgets">
+                                            <div class="icheck-material-primary">
+                                                <input type="checkbox" id="primary" checked/>
+                                                <label for="primary">5-8 классы</label>
+                                            </div>
+                                            <div class="icheck-material-primary">
+                                                <input type="checkbox" id="primary" checked/>
+                                                <label for="primary">9 классы</label>
+                                            </div>
+                                            <div class="icheck-material-primary">
+                                                <input type="checkbox" id="primary" checked/>
+                                                <label for="primary">10-11 классы</label>
+                                            </div>
+                                            <div class="icheck-material-primary">
+                                                <input type="checkbox" id="primary" checked/>
+                                                <label for="primary">Для учителей</label>
+                                            </div>
+                                            <div class="icheck-material-primary">
+                                                <input type="checkbox" id="primary" checked/>
+                                                <label for="primary">Для родителей</label>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown-divider"></div>
+                                        <div class="ege-filter__actions">
+                                            <button class="btn btn-primary">Показать 34</button>
+                                            <button class="btn btn-link text-secondary">Сбросить</button>
                                         </div>
                                     </div>
-                                    <div class="ege-settings__column">
-                                        <div class="form-group mt-2">
-                                            <label for="phone">Телефон</label>
-                                            <input type="tel" class="form-control has-resting-state" placeholder="Введите ваш телефон" id="phone">
-                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ege-all-courses__list">
+                            <div class="ege-all-courses__item">
+                                <div class="ege-course-tile ege-card">
+                                    <a class="ege-course-tile__preview" href="#">
+                                        <img class="ege-course-tile__image" src="../temp/course-tile-a@2x.jpg" alt="">
+                                    </a>
+                                    <div class="ege-course-tile__heading">
+                                        <a class="link link--inherit" href="#">Онлайн-марафон Вспомнить все перед 11 классом</a>
+                                    </div>
+                                    <div class="ege-course-tile__note">
+                                        Доступ до 01.07.2023
                                     </div>
                                 </div>
-                                <div class="ege-settings__group">
-                                    <div class="mb-3">Если вы хотите изменить пароль к личному кабинету - заполните поля ниже.</div>
-                                    <div class="form-group mt-2">
-                                        <label for="old-password">Старый пароль</label>
-                                        <input type="password" class="form-control" placeholder="Введите старый пароль" id="old-password">
+                            </div>
+                            <div class="ege-all-courses__item">
+                                <div class="ege-course-tile ege-card">
+                                    <a class="ege-course-tile__preview" href="#">
+                                        <img class="ege-course-tile__image" src="../temp/course-tile-b@2x.jpg" alt="">
+                                    </a>
+                                    <div class="ege-course-tile__heading">
+                                        <a class="link link--inherit" href="#">Онлайн-курс Математика 100 баллов (23/24 г.) Лето в подарок!</a>
                                     </div>
-                                    <div class="form-group mt-2">
-                                        <label for="old-password">Новый пароль</label>
-                                        <input type="password" class="form-control" placeholder="Введите новый пароль" id="old-password">
-                                    </div>
-                                    <div class="form-group mt-2">
-                                        <label for="old-password">Новый пароль еще раз</label>
-                                        <input type="password" class="form-control" placeholder="Введите старый пароль еще раз" id="old-password">
+                                    <div class="ege-course-tile__note">
+                                        Доступ до 01.07.2023
                                     </div>
                                 </div>
-                                <div class="ege-settings__submit">
-                                    <button class="btn btn-primary" type="submit">Сохранить </button>
+                            </div>
+                            <div class="ege-all-courses__item">
+                                <div class="ege-course-tile ege-card">
+                                    <a class="ege-course-tile__preview" href="#">
+                                        <img class="ege-course-tile__image" src="../temp/course-tile-c@2x.jpg" alt="">
+                                    </a>
+                                    <div class="ege-course-tile__heading">
+                                        <a class="link link--inherit" href="#">Онлайн-курс "ОГЭ на 5!" для 9-классников</a>
+                                    </div>
+                                    <div class="ege-course-tile__note">
+                                        Доступ до 01.07.2023
+                                    </div>
                                 </div>
-                            </form>
+                            </div>
+                            <div class="ege-all-courses__item">
+                                <div class="ege-course-tile ege-card">
+                                    <a class="ege-course-tile__preview" href="#">
+                                        <img class="ege-course-tile__image" src="../temp/course-tile-d@2x.jpg" alt="">
+                                    </a>
+                                    <div class="ege-course-tile__heading">
+                                        <a class="link link--inherit" href="#">Мини-курс Метод координат в Задаче 13 (стереометрия) с нуля!</a>
+                                    </div>
+                                    <div class="ege-course-tile__note">
+                                        Доступ до 01.07.2023
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ege-all-courses__item">
+                                <div class="ege-course-tile ege-card">
+                                    <a class="ege-course-tile__preview" href="#">
+                                        <img class="ege-course-tile__image" src="../temp/course-tile-b@2x.jpg" alt="">
+                                    </a>
+                                    <div class="ege-course-tile__heading">
+                                        <a class="link link--inherit" href="#">Мини-курс "Задачи 3 и 4 ЕГЭ-2024, +4 балла за Теорию вероятностей</a>
+                                    </div>
+                                    <div class="ege-course-tile__note">
+                                        Доступ до 01.07.2023
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ege-all-courses__item">
+                                <div class="ege-course-tile ege-card">
+                                    <a class="ege-course-tile__preview" href="#">
+                                        <img class="ege-course-tile__image" src="../temp/course-tile-c@2x.jpg" alt="">
+                                    </a>
+                                    <div class="ege-course-tile__heading">
+                                        <a class="link link--inherit" href="#">Как преподавателю тратить меньше времени. Мини-курс Анны Малковой для учителей</a>
+                                    </div>
+                                    <div class="ege-course-tile__note">
+                                        Доступ до 01.07.2023
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ege-all-courses__item">
+                                <div class="ege-course-tile ege-card">
+                                    <a class="ege-course-tile__preview" href="#">
+                                        <img class="ege-course-tile__image" src="../temp/course-tile-d@2x.jpg" alt="">
+                                    </a>
+                                    <div class="ege-course-tile__heading">
+                                        <a class="link link--inherit" href="#">Онлайн-курс математика ОГЭ для преподавателей и родителей 23/24</a>
+                                    </div>
+                                    <div class="ege-course-tile__note">
+                                        Доступ до 01.07.2023
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
                 <!-- End container-fluid-->
 

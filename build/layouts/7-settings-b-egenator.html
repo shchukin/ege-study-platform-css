@@ -53,9 +53,8 @@
 
         <!-- Actual styles -->
         <link href="../fonts/fonts.css?1722223601" rel="stylesheet"/>
-        <link href="../overrides/colors-override.css?1722223601" rel="stylesheet"/>
+        <link href="../overrides/colors-override-egenator.css?1722223601" rel="stylesheet"/>
         <link href="../styles/style.css?1722223601" rel="stylesheet">
-        <link rel="stylesheet" href="../styles/_root.css?1722223601">
 
     </head>
     <body>
@@ -73,7 +72,7 @@
             <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
                 <div class="brand-logo">
                     <a href="index.html">
-                        <img src="../content/logo-icon-sidebar.png" alt="logo icon">
+                        <img src="../content/portal-logo-black@2x.png" alt="logo icon">
                     </a>
                 </div>
                 <ul class="sidebar-menu do-nicescrol">
@@ -194,45 +193,48 @@
                         <div class="ege-settings__navigation">
                             <ul class="nav nav-tabs nav-tabs-primary">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#tabe-1">Профиль</a>
+                                    <a class="nav-link" href="#tabe-1">Профиль</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#tabe-2">Уведомления</a>
+                                    <a class="nav-link active" href="#tabe-2">Уведомления</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="ege-settings__body ege-card">
-                            <form class="ege-settings__profile">
-                                <div class="ege-settings__summary">
-                                    <div class="ege-settings__column">
-                                        <div class="form-group mt-2">
-                                            <label for="old-password">Ф.И.О.</label>
-                                            <input type="text" class="form-control has-resting-state" placeholder="Введите вашу фамилию, имя и отчество" id="name">
-                                        </div>
-                                    </div>
-                                    <div class="ege-settings__column">
-                                        <div class="form-group mt-2">
-                                            <label for="phone">Телефон</label>
-                                            <input type="tel" class="form-control has-resting-state" placeholder="Введите ваш телефон" id="phone">
-                                        </div>
+                            <form class="ege-settings__notifications">
+                                <div class="ege-settings__intro">
+                                    Онлайн платформа может рассылать уведомления при наступлении различных событий. Если вы не хотите получать письма на почту, то воспользуйтесь формой ниже, чтобы отписаться от соответствующего вида писем. Так же вы можете отписаться перейдя по специальной ссылке в письме.
+                                </div>
+                                <div class="ege-settings__notifications-group">
+                                    <div class="label mb-2">Мастер-классы</div>
+                                    <div class="icheck-material-primary">
+                                        <input type="checkbox" id="QUDQ79qDG6p" checked/>
+                                        <label for="QUDQ79qDG6p">Получать уведомления о ближайших мастер-классах за 48, 24 и 1 час до начала</label>
                                     </div>
                                 </div>
-                                <div class="ege-settings__group">
-                                    <div class="mb-3">Если вы хотите изменить пароль к личному кабинету - заполните поля ниже.</div>
-                                    <div class="form-group mt-2">
-                                        <label for="old-password">Старый пароль</label>
-                                        <input type="password" class="form-control" placeholder="Введите старый пароль" id="old-password">
-                                    </div>
-                                    <div class="form-group mt-2">
-                                        <label for="old-password">Новый пароль</label>
-                                        <input type="password" class="form-control" placeholder="Введите новый пароль" id="old-password">
-                                    </div>
-                                    <div class="form-group mt-2">
-                                        <label for="old-password">Новый пароль еще раз</label>
-                                        <input type="password" class="form-control" placeholder="Введите старый пароль еще раз" id="old-password">
+                                <div class="ege-settings__notifications-group">
+                                    <div class="label mb-2">Задания</div>
+                                    <div class="icheck-material-primary">
+                                        <input type="checkbox" id="nqSOgy7" checked/>
+                                        <label for="nqSOgy7">Получать уведомление о проверке задания</label>
                                     </div>
                                 </div>
-                                <div class="ege-settings__submit">
+                                <div class="ege-settings__notifications-group">
+                                    <div class="label mb-2">Домашние задания</div>
+                                    <div class="icheck-material-primary">
+                                        <input type="checkbox" id="ozS1HuXHwUv" checked/>
+                                        <label for="ozS1HuXHwUv">Получать уведомления о новых домашних заданиях</label>
+                                    </div>
+                                    <div class="icheck-material-primary">
+                                        <input type="checkbox" id="3sgTAmPq" checked/>
+                                        <label for="3sgTAmPq">Получать уведомления о взятии домашнего задания на проверкку</label>
+                                    </div>
+                                    <div class="icheck-material-primary">
+                                        <input type="checkbox" id="fd2UwAZ8PXq" checked/>
+                                        <label for="fd2UwAZ8PXq">Получать уведомления о завершении домашнего задания</label>
+                                    </div>
+                                </div>
+                                <div class="ege-settings__alt-submit">
                                     <button class="btn btn-primary" type="submit">Сохранить </button>
                                 </div>
                             </form>
