@@ -18,7 +18,7 @@
     /* Own */
     --success: var(--accent);
     --danger: var(--accent-link);
-    --focus-ring: rgba(252, 94, 56, 0.5);
+    --focus-ring: rgba(128, 128, 128, 0.5);
     --panel-bg: #F4F4F4;
 }
 
