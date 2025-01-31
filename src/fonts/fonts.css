@@ -1,9 +1,33 @@
 @font-face {
     font-display: swap;
     font-family: "Manrope";
+    font-weight: 300;
+    font-style: normal;
+    src: url("manrope-v15-cyrillic_latin-300.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Manrope";
     font-weight: normal;
     font-style: normal;
     src: url("manrope-v15-cyrillic_latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Manrope";
+    font-weight: 500;
+    font-style: normal;
+    src: url("manrope-v15-cyrillic_latin-500.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Manrope";
+    font-weight: 600;
+    font-style: normal;
+    src: url("manrope-v15-cyrillic_latin-600.woff2") format("woff2");
 }
 
 @font-face {
