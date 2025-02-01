@@ -13,7 +13,6 @@
     text-decoration-thickness: 1px;
     text-underline-offset: 0.25em;
     cursor: pointer;
-    transition: text-decoration-color var(--transition-hover);
 }
 
 .link:hover,

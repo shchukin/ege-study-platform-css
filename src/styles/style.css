@@ -1,12 +1,11 @@
 @import url("_visuallyhidden.css");
 @import url("_root.css");
 @import url("_html.css");
-/*@import url("_body.css");*/
 @import url("_browser.css");
-@import url("_brand-logo.css");
 
 @import url("_link.css");
 @import url("_wysiwyg.css");
+
 @import url("_ege-course.css");
 @import url("_ege-welcome.css");
 @import url("_ege-card.css");
@@ -29,3 +28,5 @@
 @import url("_ege-lessons.css");
 @import url("_ege-classes.css");
 
+/* Rakuda styles override */
+@import url("_brand-logo.css");
