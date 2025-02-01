@@ -497,6 +497,7 @@ hr {
 
 /* Forms */
 .form-control {
+    min-width: 71px;
     height: 48px;
     padding: 11px 20px;
     font-size: var(--body-font-size); /* 16px */
@@ -529,10 +530,22 @@ select.form-control {
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position: right 10px center;
+    cursor: pointer;
 }
 
 .form-control-sm {
+    min-width: 50px;
+    height: 36px;
+    padding: 7px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 6px;
+}
 
+select.form-control-sm {
+    padding-right: 30px;
+    background-size: 18px 18px;
+    background-position: right 6px center;
 }
 
 /* Empty, not touched state: */
