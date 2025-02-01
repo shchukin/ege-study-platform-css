@@ -1,0 +1,89 @@
+/* "Manrope" */
+
+/* Обычно столько начертаний не используется, но посколько большинство селекторов
+ * идёт из Rakuda, то надо добавить ещё и 300 и 500 и 600, поскольку они там встречаются.
+ */
+
+@font-face {
+    font-display: swap;
+    font-family: "Manrope";
+    font-weight: 300;
+    font-style: normal;
+    src: url("manrope-v15-cyrillic_latin-300.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Manrope";
+    font-weight: normal;
+    font-style: normal;
+    src: url("manrope-v15-cyrillic_latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Manrope";
+    font-weight: 500;
+    font-style: normal;
+    src: url("manrope-v15-cyrillic_latin-500.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Manrope";
+    font-weight: 600;
+    font-style: normal;
+    src: url("manrope-v15-cyrillic_latin-600.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Manrope";
+    font-weight: bold;
+    font-style: normal;
+    src: url("manrope-v15-cyrillic_latin-700.woff2") format("woff2");
+}
+
+
+
+
+/* "RF Dewi Extended" */
+
+@font-face {
+    font-display: swap;
+    font-family: "RF Dewi Extended";
+    font-style: normal;
+    font-weight: normal;
+    src: url("RFDewiExtended-Regular.woff2") format("woff2");
+}
+
+
+
+/* В брендинге ЕГЭнатора есть только одно жирное начертание для "RF Dewi Extended", только "Ultrabold".
+ * Плюс покупать есть смысл только одно жирноее начертание.
+ * Но в Rakuda встречаются селекторы и 500, и 600, и 700. Подключаем к ним ко всем один и тот же файл:
+ */
+
+@font-face {
+    font-display: swap;
+    font-family: "RF Dewi Extended";
+    font-style: normal;
+    font-weight: 500;
+    src: url("RFDewiExtended-Ultrabold.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "RF Dewi Extended";
+    font-style: normal;
+    font-weight: 600;
+    src: url("RFDewiExtended-Ultrabold.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "RF Dewi Extended";
+    font-style: normal;
+    font-weight: bold;
+    src: url("RFDewiExtended-Ultrabold.woff2") format("woff2");
+}
