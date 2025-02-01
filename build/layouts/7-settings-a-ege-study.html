@@ -43,19 +43,20 @@
         <meta name="msapplication-TileColor" content="#FFFFFF">
 
         <!-- Vendors -->
-        <link href="../vendors/rakuda/assets/plugins/dropzone/css/dropzone.css?1738388371" rel="stylesheet">
-        <link href="../vendors/rakuda/assets/plugins/simplebar/css/simplebar.css?1738388371" rel="stylesheet"/>
-        <link href="../vendors/rakuda/assets/css/bootstrap.min.css?1738388371" rel="stylesheet"/>
-        <link href="../vendors/rakuda/assets/css/animate.css?1738388371" rel="stylesheet"/>
-        <link href="../vendors/rakuda/assets/css/icons.css?1738388371" rel="stylesheet"/>
-        <link href="../vendors/rakuda/assets/css/sidebar-menu.css?1738388371" rel="stylesheet"/>
-        <link href="../vendors/rakuda/assets/css/app-style.css?1738388371" rel="stylesheet"/>
+        <link href="../vendors/rakuda/assets/plugins/dropzone/css/dropzone.css?1738388726" rel="stylesheet">
+        <link href="../vendors/rakuda/assets/plugins/simplebar/css/simplebar.css?1738388726" rel="stylesheet"/>
+        <link href="../vendors/rakuda/assets/css/bootstrap.min.css?1738388726" rel="stylesheet"/>
+        <link href="../vendors/rakuda/assets/css/animate.css?1738388726" rel="stylesheet"/>
+        <link href="../vendors/rakuda/assets/css/icons.css?1738388726" rel="stylesheet"/>
+        <link href="../vendors/rakuda/assets/css/sidebar-menu.css?1738388726" rel="stylesheet"/>
+        <link href="../vendors/rakuda/assets/css/app-style.css?1738388726" rel="stylesheet"/>
 
         <!-- Actual styles -->
-        <link href="../fonts/fonts-ege-study.css?1738388371" rel="stylesheet"/>
-        <link href="../overrides/rakuda-override.css?1738388371" rel="stylesheet"/>
-        <link href="../overrides/colors-override-ege-study.css?1738388371" rel="stylesheet"/>
-        <link href="../styles/style.css?1738388371" rel="stylesheet">
+        <link href="../fonts/fonts-ege-study.css?1738388726" rel="stylesheet"/>
+        <link href="../overrides/rakuda-override.css?1738388726" rel="stylesheet"/>
+        <link href="../overrides/colors-override-ege-study.css?1738388726" rel="stylesheet"/>
+        <link href="../styles/style.css?1738388726" rel="stylesheet">
+        <link rel="stylesheet" href="../styles/_root.css?1738388726">
 
     </head>
     <body>
@@ -186,88 +187,59 @@
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#"><i aria-hidden="true" class="fa fa-long-arrow-left"></i> Мои курсы</a></li>
                         </ol>
-                        <h1 class="page-title">Расписание мастер-классов</h1>
+                        <h1 class="page-title">Настройки</h1>
                     </div>
                     <!-- End Breadcrumb-->
 
-
-                    <div class="ege-course">
-                        <div class="ege-course__navigation">
+                    <div class="ege-settings">
+                        <div class="ege-settings__navigation">
                             <ul class="nav nav-tabs nav-tabs-primary">
                                 <li class="nav-item">
-                                    <a class="nav-link active" data-toggle="tab" href="#course">Курс</a>
+                                    <a class="nav-link active" href="#tabe-1">Профиль</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#progress">Прогресс</a>
+                                    <a class="nav-link" href="#tabe-2">Уведомления</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="ege-course__body ege-card">
-                            <div class="ege-course__search">
-                                <input type="text" class="form-control" placeholder="Поиск по названию или теме">
-                            </div>
-                            <div class="ege-course__sub-navigation">
-                                <ul class="nav nav-tabs nav-tabs-primary">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" data-toggle="tab" href="#tabe-1">Все <span class="badge badge-pill badge-primary ml-2">50</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#tabe-2">Запланированы <span class="badge badge-pill badge-light ml-2">16</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#tabe-2">Прошли <span class="badge badge-pill badge-light ml-2">12</span></a>
-                                    </li>
-                                </ul>
-                                <div class="ege-course__filter">
-                                    <div class="ege-filter">
-                                        <div class="btn-group-round" role="group">
-                                            <button class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" type="button">
-                                                Фильтр
-                                            </button>
-                                            <div class="dropdown-menu">
-                                                <div class="ege-filter__widgets">
-                                                    <div class="icheck-material-primary">
-                                                        <input type="checkbox" id="primary" checked/>
-                                                        <label for="primary">5-8 классы</label>
-                                                    </div>
-                                                    <div class="icheck-material-primary">
-                                                        <input type="checkbox" id="primary" checked/>
-                                                        <label for="primary">9 классы</label>
-                                                    </div>
-                                                    <div class="icheck-material-primary">
-                                                        <input type="checkbox" id="primary" checked/>
-                                                        <label for="primary">10-11 классы</label>
-                                                    </div>
-                                                    <div class="icheck-material-primary">
-                                                        <input type="checkbox" id="primary" checked/>
-                                                        <label for="primary">Для учителей</label>
-                                                    </div>
-                                                    <div class="icheck-material-primary">
-                                                        <input type="checkbox" id="primary" checked/>
-                                                        <label for="primary">Для родителей</label>
-                                                    </div>
-                                                </div>
-                                                <div class="dropdown-divider"></div>
-                                                <div class="ege-filter__actions">
-                                                    <button class="btn btn-primary">Показать 34</button>
-                                                    <button class="btn btn-link text-secondary">Сбросить</button>
-                                                </div>
-                                            </div>
+                        <div class="ege-settings__body ege-card">
+                            <form class="ege-settings__profile">
+                                <div class="ege-settings__summary">
+                                    <div class="ege-settings__column">
+                                        <div class="form-group mt-2">
+                                            <label for="old-password">Ф.И.О.</label>
+                                            <input type="text" class="form-control has-resting-state" placeholder="Введите вашу фамилию, имя и отчество" id="name">
+                                        </div>
+                                    </div>
+                                    <div class="ege-settings__column">
+                                        <div class="form-group mt-2">
+                                            <label for="phone">Телефон</label>
+                                            <input type="tel" class="form-control has-resting-state" placeholder="Введите ваш телефон" id="phone">
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="ege-course__content">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias amet aperiam aspernatur assumenda at dignissimos distinctio dolor dolore doloremque ea error excepturi exercitationem impedit inventore necessitatibus, neque nesciunt nulla pariatur porro quasi quia quibusdam reiciendis rerum soluta sunt ut vel vitae voluptas voluptatum. A beatae dolor doloremque dolores dolorum, ducimus, earum excepturi harum laborum non quae, quibusdam ut. Ab accusantium amet consequatur deserunt
-                                distinctio dolor dolores earum eius eos eum exercitationem incidunt inventore iste labore nemo nulla, odio odit porro quam quis quos ratione repellendus sapiente similique, sint velit, vitae? Commodi debitis iusto magnam recusandae? Dicta distinctio dolore inventore officiis, praesentium provident repellendus. Consectetur fuga laudantium molestiae nulla pariatur tempore vero vitae! Architecto assumenda cum deserunt ducimus eos exercitationem expedita fugiat iure mollitia odio,
-                                officiis praesentium quibusdam, quisquam, repellendus rerum unde voluptatum! Adipisci aliquid aut ea molestias qui. Ad architecto at consequatur, deserunt dolore dolorum eaque earum, exercitationem explicabo impedit in inventore ipsa laborum minima officia praesentium quam quidem, quis quisquam quos rerum sint suscipit unde! Et facilis magnam qui rerum vel! Animi aperiam aspernatur assumenda atque commodi debitis dicta distinctio dolorum enim expedita harum iusto maxime odio, officia
-                                pariatur quia ratione similique sunt vel velit. Ad architecto delectus exercitationem illum, inventore ipsam nihil repellendus suscipit tenetur totam! Ab aperiam asperiores blanditiis doloremque inventore ipsam iure iusto laboriosam, minima molestiae non obcaecati odit omnis perferendis quas quisquam quod saepe sed sint, tempora veniam vitae voluptatum. At, incidunt, veniam? Accusamus eligendi eum minima! Eum fugiat fugit in iusto minus nobis officia perferendis placeat quasi quia.
-                                Deleniti eaque maiores mollitia. Amet asperiores aspernatur, at atque autem beatae commodi culpa cum debitis dignissimos dolorem doloremque doloribus error eveniet in ipsam ipsum iure magni nemo non obcaecati odit porro provident quam quibusdam quisquam quo quos ratione recusandae repellendus sapiente sed sit suscipit tenetur unde ut voluptates! Accusamus amet animi aperiam culpa dolore, earum eius est ex expedita facere facilis fugit inventore ipsa libero magnam magni maiores neque
-                                nobis odit omnis optio pariatur perspiciatis possimus quidem saepe sit sunt tempora temporibus tenetur voluptatibus. Dolores, excepturi, iure. Aliquid corporis dolor eos expedita in ipsa nobis officia pariatur perferendis possimus sequi, suscipit tempora temporibus. Accusantium consectetur consequuntur harum id provident, quis recusandae saepe veniam! Ad aperiam aspernatur, consequatur dolorem, ea excepturi explicabo ipsam iste iure iusto labore laborum libero minima mollitia non
-                                perferendis praesentium quasi sed, tempora totam ullam vero vitae! Ab amet fuga perspiciatis quasi?
-                            </div>
+                                <div class="ege-settings__group">
+                                    <div class="mb-3">Если вы хотите изменить пароль к личному кабинету - заполните поля ниже.</div>
+                                    <div class="form-group mt-2">
+                                        <label for="old-password">Старый пароль</label>
+                                        <input type="password" class="form-control" placeholder="Введите старый пароль" id="old-password">
+                                    </div>
+                                    <div class="form-group mt-2">
+                                        <label for="old-password">Новый пароль</label>
+                                        <input type="password" class="form-control" placeholder="Введите новый пароль" id="old-password">
+                                    </div>
+                                    <div class="form-group mt-2">
+                                        <label for="old-password">Новый пароль еще раз</label>
+                                        <input type="password" class="form-control" placeholder="Введите старый пароль еще раз" id="old-password">
+                                    </div>
+                                </div>
+                                <div class="ege-settings__submit">
+                                    <button class="btn btn-primary" type="submit">Сохранить </button>
+                                </div>
+                            </form>
                         </div>
                     </div>
+
                 </div>
                 <!-- End container-fluid-->
 
