@@ -523,6 +523,11 @@ hr {
     box-shadow: 0 0 0 0.2rem var(--focus-ring);
 }
 
+.form-control[type="password"]:not(:placeholder-shown) {
+    font-family: "Tahoma", sans-serif;
+    letter-spacing: 2px;
+}
+
 select.form-control {
     appearance: none;
     padding-right: 38px;
