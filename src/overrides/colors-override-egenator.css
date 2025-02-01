@@ -848,6 +848,20 @@ select.form-control-sm {
 }
 
 
+[class*="icheck-material"] > input:first-child + label::before, [class*="icheck-material"] > input:first-child + input[type="hidden"] + label::before {
+    border-color: var(--secondary-3);
+}
 
+.icheck-material-primary > input:first-child:not(:checked):not(:disabled):hover + label::before, .icheck-material-primary > input:first-child:not(:checked):not(:disabled):hover + input[type="hidden"] + label::before {
+    border-color: var(--focus-ring);
+}
 
+/* шарик анимации: */
+.icheck-material-primary > input:first-child {
+    background-color: var(--accent-link);
+}
 
+.icheck-material-primary > input:first-child:checked + label::before, .icheck-material-primary > input:first-child:checked + input[type="hidden"] + label::before {
+    background-color: var(--accent-link);
+    border-color: var(--accent-link);
+}
