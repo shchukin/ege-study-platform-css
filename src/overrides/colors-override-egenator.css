@@ -427,6 +427,10 @@ hr {
     color: var(--primary);
 }
 
+.sidebar-menu .sidebar-submenu>li.active>a, .sidebar-menu .sidebar-submenu>li>a:hover {
+    color: #888888;
+}
+
 .sidebar-menu > li > a > .fa {
     color: var(--secondary-4);
 }
@@ -434,6 +438,8 @@ hr {
 .sidebar-menu > li > a {
     color: var(--primary);
 }
+
+
 
 
 .lobibox-notify.lobibox-notify-error {
@@ -853,6 +859,7 @@ select.form-control-sm {
 }
 
 
+/* Чекбокс */
 [class*="icheck-material"] > input:first-child + label::before, [class*="icheck-material"] > input:first-child + input[type="hidden"] + label::before {
     border-color: var(--secondary-3);
 }
@@ -870,3 +877,6 @@ select.form-control-sm {
     background-color: var(--accent-link);
     border-color: var(--accent-link);
 }
+
+
+
