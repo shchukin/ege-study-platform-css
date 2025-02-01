@@ -513,12 +513,12 @@ hr {
 }
 
 
-.form-control:hover {
+.form-control:not(:disabled):hover {
     border-color: var(--focus-ring);
 }
 
 
-.form-control:focus {
+.form-control:not(:disabled):focus {
     border-color: var(--focus-ring);
     box-shadow: 0 0 0 0.2rem var(--focus-ring);
 }
@@ -571,7 +571,9 @@ select.form-control-sm {
     box-shadow: none !important;
 }
 
-
+.btn-group, .btn-group-vertical {
+    border-radius: 23px;
+}
 
 
 /* Multi select */
