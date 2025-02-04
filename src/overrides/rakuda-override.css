@@ -36,6 +36,16 @@ hr {
     color: var(--primary);
 }
 
+a {
+    color: var(--accent-link);
+    text-decoration: 1px solid underline;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.15em;
+}
+
+a:hover {
+    color: var(--accent-link);
+}
 
 .page-title {
     font-family: var(--font-heading);
@@ -136,12 +146,14 @@ hr {
 .btn {
     height: 46px;
     padding: 12px 24px;
+    font-family: inherit;
     font-weight: bold;
     font-size: 15px;
     line-height: 20px;
     border-radius: 23px;
     text-transform: none;
     letter-spacing: 0;
+    text-decoration: none;
     box-shadow: none !important;
 }
 
@@ -362,6 +374,7 @@ hr {
 }
 
 .dropdown-menu a {
+    text-decoration: none;
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
 }
@@ -372,11 +385,16 @@ hr {
 }
 
 
+.dropdown-toggle {
+    text-decoration: none;
+}
+
 
 /* Breadcrumbs */
 
 .breadcrumb a {
     color: var(--accent-link);
+    text-decoration: none;
 }
 
 .breadcrumb-item.active {
@@ -387,6 +405,12 @@ hr {
     color: var(--text-secondary);
 }
 
+
+/* Nav */
+
+.nav-link {
+    text-decoration: none;
+}
 
 
 /* Header */
@@ -509,6 +533,7 @@ hr {
 
 /* Paginations */
 .page-link {
+    text-decoration: none;
     color: var(--accent-link);
     border-color: var(--divider-color);
 }
@@ -523,6 +548,8 @@ hr {
 }
 
 .page-item.active .page-link {
+    position: relative;
+    z-index: 10;
     background-color: var(--accent-link);
     border-color: var(--accent-link);
     color: #FFFFFF;
