@@ -158,3 +158,26 @@
     .ege-choice--full-width .ege-choice__label {
         width: 100%;
     }
+
+
+.ege-choice--panel {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+    .ege-choice--panel .ege-choice__icon {
+        left: 21px;
+        top: 15px;
+    }
+
+    .ege-choice--panel .ege-choice__label {
+        padding: 13px 12px 13px 50px;
+        background-color: var(--secondary-1-bg);
+        border-radius: 25px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .ege-choice--panel .ege-choice__label:hover {
+        background-color: var(--secondary-2);
+    }
