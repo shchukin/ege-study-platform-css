@@ -1,0 +1,160 @@
+.choice {
+    position: relative;
+    display: inline-block;
+    margin-left: -10px;
+    margin-right: -10px;
+    vertical-align: top;
+    min-width: 20px;
+    min-height: 36px;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 0; /* Перебиваем стили ракуды */
+    font-weight: inherit; /* Перебиваем стили ракуды */
+    font-size: inherit; /* Перебиваем стили ракуды */
+    line-height: inherit; /* Перебиваем стили ракуды */
+    letter-spacing: 0; /* Перебиваем стили ракуды */
+    text-transform: none; /* Перебиваем стили ракуды */
+}
+    .choice__widget {
+        opacity: 0;
+        position: absolute;
+        left: 15px;
+        top: 11px;
+    }
+
+    .choice__icon {
+        position: absolute;
+        z-index: 10;
+        left: 12px;
+        top: 8px;
+        width: 20px;
+        height: 20px;
+        border: 1px solid var(--accent-link);
+        background-color: #FFFFFF;
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 2px;
+    }
+
+    .choice--checkbox .choice__icon {
+
+    }
+
+    /* Фокус при табуляциях */
+    /*.choice__widget:focus ~ .choice__icon {*/
+    /*    outline: auto;*/
+    /*    outline-offset: 4px;*/
+    /*}*/
+
+    .choice--checkbox .choice__icon {
+        background-image: url("../vectors/choice-checkbox.svg"); /* by default it can't be seen because of white background */
+    }
+
+    .choice--radio .choice__icon {
+        background-image: url("../vectors/choice-radio.svg"); /* by default it can't be seen because of white background */
+        border-radius: 50%;
+    }
+
+    .choice__widget:checked ~ .choice__icon {
+        background-color: var(--accent-link);
+        border-color: transparent;
+    }
+
+    .choice__label {
+        position: relative;
+        display: flex;
+        vertical-align: top;
+        padding: 6px 12px 6px 42px;
+        border-radius: 4px;
+        font-weight: normal; /* Откуда-то свыше всё-равно прилетает 500, перекрываем */
+        font-size: 15px;
+        line-height: 24px;
+        color: black;
+    }
+
+
+.choice:hover {
+
+}
+    .choice:hover .choice__label {
+        background-color: var(--accent-link-low-opacity-hover);
+    }
+
+    /* Cancel radio hover */
+    .choice--radio:hover .choice__widget:checked ~ .choice__label {
+        background-color: transparent;
+        cursor: default;
+    }
+
+
+
+
+
+
+
+/* .choice--hidden-label */
+
+.choice--hidden-label {
+    width: 44px;
+    height: 36px;
+}
+    .choice--hidden-label .choice__icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0;
+        margin: auto;
+    }
+
+    .choice--hidden-label .choice__label {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0;
+        text-indent: 200%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+
+
+
+
+.choice--disabled {
+    cursor: default;
+}
+
+    .choice--disabled .choice__icon,
+    .choice--disabled:hover .choice__icon {
+        background-color: #C5C5C5;
+        border-color: #C5C5C5;
+        cursor: default;
+    }
+
+    .choice--disabled .choice__widget:checked ~ .choice__icon,
+    .choice--disabled:hover .choice__widget:checked ~ .choice__icon {
+        background-color: #C5C5C5;
+        border-color: #C5C5C5;
+        cursor: default;
+    }
+
+    .choice--disabled .choice__label {
+        cursor: default;
+        color: #8B8B8B;
+        background-color: transparent !important;
+    }
+
+
+
+
+.choice--full-width {
+    width: 100%;
+}
+    .choice--full-width .choice__label {
+        width: 100%;
+    }
