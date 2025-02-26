@@ -943,3 +943,31 @@ select.form-control-sm {
 
 
 
+/* Кнопка с шестерёнкой */
+
+.settings-handler {
+    width: 100%;
+}
+    .settings-handler .btn {
+        width: 100%;
+    }
+        .settings-handler .fa {
+            font-size: 18px;
+        }
+
+        .settings-handler .dropdown-toggle::after {
+            font-size: 14px;
+            margin-left: 5px;
+        }
+
+
+
+/* Table */
+
+.card-body .table-responsive {
+    margin-left: calc(-1 * 1.25rem);
+    margin-right: calc(-1 * 1.25rem);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    width: calc(100% + 2 * 1.25rem);
+}
