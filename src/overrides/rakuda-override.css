@@ -499,9 +499,17 @@ a:hover {
 }
 
 
+/* Frame */
+
+.content-wrapper {
+    padding-bottom: 20px;
+}
+
+
 /* Footer */
 
 .footer {
+    position: static;
     border-color: var(--divider-color);
     background-color: transparent;
     color: var(--text-secondary);
