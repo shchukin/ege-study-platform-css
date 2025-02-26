@@ -971,3 +971,37 @@ select.form-control-sm {
     padding-right: 1.25rem;
     width: calc(100% + 2 * 1.25rem);
 }
+
+
+
+/* Cards */
+/* См. редактирование теста */
+
+.ui-sortable {
+
+}
+    .ui-sortable .card-header::before {
+        content: "";
+        float: left;
+        margin-top: 2px;
+        vertical-align: top;
+        margin-right: 12px;
+        width: 18px;
+        height: 18px;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTYuMTkyNCA1LjY1NjgzQzE2LjU4MjkgNS4yNjYzIDE2LjU4MjkgNC42MzMxNCAxNi4xOTI0IDQuMjQyNjFMMTMuMzY0IDEuNDE0MTlDMTIuNTgyOSAwLjYzMzEzOSAxMS4zMTY2IDAuNjMzMTM3IDEwLjUzNTUgMS40MTQxOUw3LjcwNzExIDQuMjQyNjFDNy4zMTY1OCA0LjYzMzE0IDcuMzE2NTggNS4yNjYzIDcuNzA3MTEgNS42NTY4M0M4LjA5NzYzIDYuMDQ3MzUgOC43MzA3OSA2LjA0NzM1IDkuMTIxMzIgNS42NTY4M0wxMSAzLjc3ODEyVjExLjA1MDNIMy43Mjc4NEw1LjYwNjU1IDkuMTcxNTdDNS45OTcwNyA4Ljc4MTA0IDUuOTk3MDcgOC4xNDc4OCA1LjYwNjU1IDcuNzU3MzVDNS4yMTYwMiA3LjM2NjgzIDQuNTgyODYgNy4zNjY4MyA0LjE5MjM0IDcuNzU3MzVMMS4zNjM5MSAxMC41ODU4QzAuNTgyODYzIDExLjM2NjggMC41ODI4NTkgMTIuNjMzMiAxLjM2MzkxIDEzLjQxNDJMNC4xOTIzNCAxNi4yNDI2QzQuNTgyODYgMTYuNjMzMiA1LjIxNjAzIDE2LjYzMzIgNS42MDY1NSAxNi4yNDI2QzUuOTk3MDcgMTUuODUyMSA1Ljk5NzA3IDE1LjIxOSA1LjYwNjU1IDE0LjgyODRMMy44Mjg0IDEzLjA1MDNIMTFWMjAuMjIxOUw5LjEyMTMyIDE4LjM0MzJDOC43MzA3OSAxNy45NTI2IDguMDk3NjMgMTcuOTUyNiA3LjcwNzEgMTguMzQzMkM3LjMxNjU4IDE4LjczMzcgNy4zMTY1OCAxOS4zNjY5IDcuNzA3MSAxOS43NTc0TDEwLjUzNTUgMjIuNTg1OEMxMS4zMTY2IDIzLjM2NjkgMTIuNTgyOSAyMy4zNjY5IDEzLjM2NCAyMi41ODU4TDE2LjE5MjQgMTkuNzU3NEMxNi41ODI5IDE5LjM2NjkgMTYuNTgyOSAxOC43MzM3IDE2LjE5MjQgMTguMzQzMkMxNS44MDE5IDE3Ljk1MjYgMTUuMTY4NyAxNy45NTI2IDE0Ljc3ODIgMTguMzQzMkwxMyAyMC4xMjEzVjEzLjA1MDNIMjAuMDcxTDE4LjI5MjkgMTQuODI4NEMxNy45MDI0IDE1LjIxOSAxNy45MDI0IDE1Ljg1MjEgMTguMjkyOSAxNi4yNDI2QzE4LjY4MzQgMTYuNjMzMiAxOS4zMTY2IDE2LjYzMzIgMTkuNzA3MSAxNi4yNDI2TDIyLjUzNTUgMTMuNDE0MkMyMy4zMTY2IDEyLjYzMzIgMjMuMzE2NiAxMS4zNjY4IDIyLjUzNTUgMTAuNTg1OEwxOS43MDcxIDcuNzU3MzVDMTkuMzE2NiA3LjM2NjgzIDE4LjY4MzQgNy4zNjY4MyAxOC4yOTI5IDcuNzU3MzVDMTcuOTAyNCA4LjE0Nzg4IDE3LjkwMjQgOC43ODEwNCAxOC4yOTI5IDkuMTcxNTdMMjAuMTcxNiAxMS4wNTAzSDEzVjMuODc4NjdMMTQuNzc4MiA1LjY1NjgzQzE1LjE2ODcgNi4wNDczNSAxNS44MDE5IDYuMDQ3MzUgMTYuMTkyNCA1LjY1NjgzWiIgZmlsbD0iIzBGMEYwRiIvPjwvc3ZnPg==);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        cursor: move; /* fallback if grab cursor is unsupported */
+        cursor: grab;
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+    }
+
+.entity-item {
+
+}
+    .entity-delete {
+        padding: 10px;
+        margin: -10px -10px -10px 0;
+    }
