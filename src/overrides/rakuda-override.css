@@ -113,15 +113,15 @@ a:hover {
 
 
 .border-primary {
-    border-color: var(--accent-link);
+    border-color: var(--accent-link) !important;
 }
 
 .border-success {
-    border-color: var(--success);
+    border-color: var(--success) !important;
 }
 
 .border-danger {
-    border-color: var(--danger);
+    border-color: var(--danger) !important;
 }
 
 
