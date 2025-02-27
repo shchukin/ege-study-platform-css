@@ -10,6 +10,10 @@
         margin-left: -24px;
         margin-right: -24px;
     }
+
+    .ege-course-tile__preview--clickable:hover {
+        filter: brightness(105%) contrast(105%);
+    }
         .ege-course-tile__image {
             vertical-align: top;
             width: 100%;
