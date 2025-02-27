@@ -71,3 +71,11 @@
     .ege-course-tile__progress {
         margin-top: 24px;
     }
+
+    .ege-course-tile__actions {
+        margin-top: 16px;
+    }
+
+    .ege-course-tile__progress ~ .ege-course-tile__actions {
+        margin-top: 24px;
+    }
