@@ -157,6 +157,14 @@ a:hover {
     box-shadow: none !important;
 }
 
+
+.btn-sm {
+    height: 36px;
+    padding: 8px 18px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
 .btn-primary {
     background-color: var(--accent-link);
     border-color: var(--accent-link);
@@ -606,7 +614,7 @@ a:hover {
 select.form-control {
     appearance: none;
     padding-right: 38px;
-    background-image: url("../vectors/chevron-bottom.svg");
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMjkyODkgOS4yOTI4OUM1LjY4MzQyIDguOTAyMzcgNi4zMTY1OCA4LjkwMjM3IDYuNzA3MTEgOS4yOTI4OUwxMiAxNC41ODU4TDE3LjI5MjkgOS4yOTI4OUMxNy42ODM0IDguOTAyMzcgMTguMzE2NiA4LjkwMjM3IDE4LjcwNzEgOS4yOTI4OUMxOS4wOTc2IDkuNjgzNDIgMTkuMDk3NiAxMC4zMTY2IDE4LjcwNzEgMTAuNzA3MUwxMi43MDcxIDE2LjcwNzFDMTIuMzE2NiAxNy4wOTc2IDExLjY4MzQgMTcuMDk3NiAxMS4yOTI5IDE2LjcwNzFMNS4yOTI4OSAxMC43MDcxQzQuOTAyMzcgMTAuMzE2NiA0LjkwMjM3IDkuNjgzNDIgNS4yOTI4OSA5LjI5Mjg5WiIgZmlsbD0iIzIwMUQxQiIvPjwvc3ZnPg==);
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position: right 10px center;
@@ -701,6 +709,12 @@ select.form-control-sm {
     padding-right: var(--rakuda-container-padding);
     border-bottom: none !important;
     white-space: nowrap;
+}
+
+.card-body .nav-tabs {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: -20px;
 }
 
 .nav-tabs .nav-item {
@@ -1005,3 +1019,29 @@ select.form-control-sm {
         padding: 10px;
         margin: -10px -10px -10px 0;
     }
+
+
+/* Edit pencil */
+
+.simple-action {
+    padding: 10px;
+    margin: -10px -10px -10px -4px;
+}
+
+
+/* datepicker */
+
+
+
+.input-daterange .form-control:first-child {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.input-daterange .form-control:last-child,
+.input-daterange .form-control:last-of-type { /* На случай если не сработал :last-child потому что там дальше div с ошибками */
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+
