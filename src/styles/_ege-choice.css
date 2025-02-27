@@ -39,7 +39,7 @@
         height: 20px;
         border: 1px solid var(--accent-link);
         background-color: #FFFFFF;
-        background-size: 20px 20px;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
         border-radius: 2px;
@@ -179,4 +179,28 @@
 
     .ege-choice--panel .ege-choice__label:hover {
         background-color: var(--secondary-2);
+    }
+
+
+
+.ege-choice--smaller {
+    min-height: 22px;
+}
+    .ege-choice--smaller .ege-choice__icon {
+        left: 8px;
+        top: 4px;
+        width: 14px;
+        height: 14px;
+        background-size: 16px 16px;
+    }
+
+    .ege-choice--smaller .ege-choice__label {
+        padding: 3px 8px 3px 29px;
+        border-radius: 4px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .ege-choice--smaller .ege-choice__label:hover {
+
     }
