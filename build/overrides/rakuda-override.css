@@ -113,15 +113,15 @@ a:hover {
 
 
 .border-primary {
-    border-color: var(--accent-link);
+    border-color: var(--accent-link) !important;
 }
 
 .border-success {
-    border-color: var(--success);
+    border-color: var(--success) !important;
 }
 
 .border-danger {
-    border-color: var(--danger);
+    border-color: var(--danger) !important;
 }
 
 
@@ -155,6 +155,14 @@ a:hover {
     letter-spacing: 0;
     text-decoration: none;
     box-shadow: none !important;
+}
+
+
+.btn-sm {
+    height: 36px;
+    padding: 8px 18px;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .btn-primary {
@@ -499,9 +507,17 @@ a:hover {
 }
 
 
+/* Frame */
+
+.content-wrapper {
+    padding-bottom: 20px;
+}
+
+
 /* Footer */
 
 .footer {
+    position: static;
     border-color: var(--divider-color);
     background-color: transparent;
     color: var(--text-secondary);
@@ -598,7 +614,7 @@ a:hover {
 select.form-control {
     appearance: none;
     padding-right: 38px;
-    background-image: url("../vectors/chevron-bottom.svg");
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMjkyODkgOS4yOTI4OUM1LjY4MzQyIDguOTAyMzcgNi4zMTY1OCA4LjkwMjM3IDYuNzA3MTEgOS4yOTI4OUwxMiAxNC41ODU4TDE3LjI5MjkgOS4yOTI4OUMxNy42ODM0IDguOTAyMzcgMTguMzE2NiA4LjkwMjM3IDE4LjcwNzEgOS4yOTI4OUMxOS4wOTc2IDkuNjgzNDIgMTkuMDk3NiAxMC4zMTY2IDE4LjcwNzEgMTAuNzA3MUwxMi43MDcxIDE2LjcwNzFDMTIuMzE2NiAxNy4wOTc2IDExLjY4MzQgMTcuMDk3NiAxMS4yOTI5IDE2LjcwNzFMNS4yOTI4OSAxMC43MDcxQzQuOTAyMzcgMTAuMzE2NiA0LjkwMjM3IDkuNjgzNDIgNS4yOTI4OSA5LjI5Mjg5WiIgZmlsbD0iIzIwMUQxQiIvPjwvc3ZnPg==);
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position: right 10px center;
@@ -693,6 +709,12 @@ select.form-control-sm {
     padding-right: var(--rakuda-container-padding);
     border-bottom: none !important;
     white-space: nowrap;
+}
+
+.card-body .nav-tabs {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: -20px;
 }
 
 .nav-tabs .nav-item {
@@ -933,5 +955,93 @@ select.form-control-sm {
     border-color: var(--accent-link);
 }
 
+
+
+/* Кнопка с шестерёнкой */
+
+.settings-handler {
+    width: 100%;
+}
+    .settings-handler .btn {
+        width: 100%;
+    }
+        .settings-handler .fa {
+            font-size: 18px;
+        }
+
+        .settings-handler .dropdown-toggle::after {
+            font-size: 14px;
+            margin-left: 5px;
+        }
+
+
+
+/* Table */
+
+.card-body .table-responsive {
+    margin-left: calc(-1 * 1.25rem);
+    margin-right: calc(-1 * 1.25rem);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    width: calc(100% + 2 * 1.25rem);
+}
+
+
+
+/* Cards */
+/* См. редактирование теста */
+
+.ui-sortable {
+
+}
+    .ui-sortable .card-header::before {
+        content: "";
+        float: left;
+        margin-top: 2px;
+        vertical-align: top;
+        margin-right: 12px;
+        width: 18px;
+        height: 18px;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTYuMTkyNCA1LjY1NjgzQzE2LjU4MjkgNS4yNjYzIDE2LjU4MjkgNC42MzMxNCAxNi4xOTI0IDQuMjQyNjFMMTMuMzY0IDEuNDE0MTlDMTIuNTgyOSAwLjYzMzEzOSAxMS4zMTY2IDAuNjMzMTM3IDEwLjUzNTUgMS40MTQxOUw3LjcwNzExIDQuMjQyNjFDNy4zMTY1OCA0LjYzMzE0IDcuMzE2NTggNS4yNjYzIDcuNzA3MTEgNS42NTY4M0M4LjA5NzYzIDYuMDQ3MzUgOC43MzA3OSA2LjA0NzM1IDkuMTIxMzIgNS42NTY4M0wxMSAzLjc3ODEyVjExLjA1MDNIMy43Mjc4NEw1LjYwNjU1IDkuMTcxNTdDNS45OTcwNyA4Ljc4MTA0IDUuOTk3MDcgOC4xNDc4OCA1LjYwNjU1IDcuNzU3MzVDNS4yMTYwMiA3LjM2NjgzIDQuNTgyODYgNy4zNjY4MyA0LjE5MjM0IDcuNzU3MzVMMS4zNjM5MSAxMC41ODU4QzAuNTgyODYzIDExLjM2NjggMC41ODI4NTkgMTIuNjMzMiAxLjM2MzkxIDEzLjQxNDJMNC4xOTIzNCAxNi4yNDI2QzQuNTgyODYgMTYuNjMzMiA1LjIxNjAzIDE2LjYzMzIgNS42MDY1NSAxNi4yNDI2QzUuOTk3MDcgMTUuODUyMSA1Ljk5NzA3IDE1LjIxOSA1LjYwNjU1IDE0LjgyODRMMy44Mjg0IDEzLjA1MDNIMTFWMjAuMjIxOUw5LjEyMTMyIDE4LjM0MzJDOC43MzA3OSAxNy45NTI2IDguMDk3NjMgMTcuOTUyNiA3LjcwNzEgMTguMzQzMkM3LjMxNjU4IDE4LjczMzcgNy4zMTY1OCAxOS4zNjY5IDcuNzA3MSAxOS43NTc0TDEwLjUzNTUgMjIuNTg1OEMxMS4zMTY2IDIzLjM2NjkgMTIuNTgyOSAyMy4zNjY5IDEzLjM2NCAyMi41ODU4TDE2LjE5MjQgMTkuNzU3NEMxNi41ODI5IDE5LjM2NjkgMTYuNTgyOSAxOC43MzM3IDE2LjE5MjQgMTguMzQzMkMxNS44MDE5IDE3Ljk1MjYgMTUuMTY4NyAxNy45NTI2IDE0Ljc3ODIgMTguMzQzMkwxMyAyMC4xMjEzVjEzLjA1MDNIMjAuMDcxTDE4LjI5MjkgMTQuODI4NEMxNy45MDI0IDE1LjIxOSAxNy45MDI0IDE1Ljg1MjEgMTguMjkyOSAxNi4yNDI2QzE4LjY4MzQgMTYuNjMzMiAxOS4zMTY2IDE2LjYzMzIgMTkuNzA3MSAxNi4yNDI2TDIyLjUzNTUgMTMuNDE0MkMyMy4zMTY2IDEyLjYzMzIgMjMuMzE2NiAxMS4zNjY4IDIyLjUzNTUgMTAuNTg1OEwxOS43MDcxIDcuNzU3MzVDMTkuMzE2NiA3LjM2NjgzIDE4LjY4MzQgNy4zNjY4MyAxOC4yOTI5IDcuNzU3MzVDMTcuOTAyNCA4LjE0Nzg4IDE3LjkwMjQgOC43ODEwNCAxOC4yOTI5IDkuMTcxNTdMMjAuMTcxNiAxMS4wNTAzSDEzVjMuODc4NjdMMTQuNzc4MiA1LjY1NjgzQzE1LjE2ODcgNi4wNDczNSAxNS44MDE5IDYuMDQ3MzUgMTYuMTkyNCA1LjY1NjgzWiIgZmlsbD0iIzBGMEYwRiIvPjwvc3ZnPg==);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        cursor: move; /* fallback if grab cursor is unsupported */
+        cursor: grab;
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+    }
+
+.entity-item {
+
+}
+    .entity-delete {
+        padding: 10px;
+        margin: -10px -10px -10px 0;
+    }
+
+
+/* Edit pencil */
+
+.simple-action {
+    padding: 10px;
+    margin: -10px -10px -10px -4px;
+}
+
+
+/* datepicker */
+
+
+
+.input-daterange .form-control:first-child {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.input-daterange .form-control:last-child,
+.input-daterange .form-control:last-of-type { /* На случай если не сработал :last-child потому что там дальше div с ошибками */
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
 
 
