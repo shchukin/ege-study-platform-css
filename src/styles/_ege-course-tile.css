@@ -57,6 +57,17 @@
             top: 0;
         }
 
+    .ege-course-tile__settings {
+        margin-top: 10px;
+        display: block;
+        width: fit-content;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 15px;
+        line-height: 20px;
+        color: var(--accent-link);
+    }
+
     .ege-course-tile__progress {
         margin-top: 24px;
     }
