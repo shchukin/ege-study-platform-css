@@ -510,13 +510,18 @@ a:hover {
 /* Frame */
 
 .content-wrapper {
-    padding-bottom: 20px;
+    padding-bottom: 0;
 }
 
 
 /* Footer */
 
 .footer {
+    margin-top: 32px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     position: static;
     border-color: var(--divider-color);
     background-color: transparent;
@@ -606,6 +611,10 @@ a:hover {
     box-shadow: 0 0 0 0.2rem var(--focus-ring);
 }
 
+.form-control:disabled {
+    cursor: default;
+}
+
 .form-control[type="password"]:not(:placeholder-shown) {
     font-family: "Tahoma", sans-serif;
     letter-spacing: 2px;
@@ -635,6 +644,24 @@ select.form-control-sm {
     background-size: 18px 18px;
     background-position: right 6px center;
 }
+
+
+
+/* datepicker */
+
+
+
+.input-daterange .form-control:first-child {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.input-daterange .form-control:last-child,
+.input-daterange .form-control:last-of-type { /* На случай если не сработал :last-child потому что там дальше div с ошибками */
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
 
 /* Empty, not touched state: */
 .has-resting-state:placeholder-shown:not(:hover):not(:focus-within) {
@@ -1028,20 +1055,5 @@ select.form-control-sm {
     margin: -10px -10px -10px -4px;
 }
 
-
-/* datepicker */
-
-
-
-.input-daterange .form-control:first-child {
-    border-top-left-radius: 24px;
-    border-bottom-left-radius: 24px;
-}
-
-.input-daterange .form-control:last-child,
-.input-daterange .form-control:last-of-type { /* На случай если не сработал :last-child потому что там дальше div с ошибками */
-    border-top-right-radius: 24px;
-    border-bottom-right-radius: 24px;
-}
 
 
