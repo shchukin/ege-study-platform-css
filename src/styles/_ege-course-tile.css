@@ -15,6 +15,7 @@
 
     .ege-course-tile__heading {
         margin-top: 22px;
+        margin-bottom: 0;
         font-family: var(--font-heading);
         font-weight: 600;
         font-size: 16px;
