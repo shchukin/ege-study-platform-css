@@ -1,16 +1,21 @@
 .ege-course-tile {
     min-height: 100%;
-    padding: 20px 30px 30px;
+    padding: 20px 24px 30px;
     display: flex;
     flex-direction: column;
 }
     .ege-course-tile__preview {
-
+        display: block;
+        margin-top: -20px;
+        margin-left: -24px;
+        margin-right: -24px;
     }
         .ege-course-tile__image {
             vertical-align: top;
             width: 100%;
             height: auto;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
         }
 
     .ege-course-tile__heading {
@@ -22,13 +27,31 @@
         line-height: 22px;
     }
 
-    .ege-course-tile__note {
+    .ege-course-tile__notes {
         margin-top: auto;
         padding-top: 12px;
         font-size: var(--caption-font-size);
-        line-height: var(--caption-line-height);
+        line-height: calc(var(--caption-line-height) - 2px);
         color: var(--text-secondary);
     }
+        .ege-course-tile__note-item {
+            margin-top: 3px;
+        }
+
+        .ege-course-tile__note-item:first-child {
+            margin-top: 0;
+        }
+
+        .ege-course-tile__notes:has(.ege-course-tile__note-item:nth-child(2)) .ege-course-tile__note-item {
+            position: relative;
+            padding-left: 16px;
+        }
+        .ege-course-tile__notes:has(.ege-course-tile__note-item:nth-child(2)) .ege-course-tile__note-item::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
 
     .ege-course-tile__progress {
         margin-top: 24px;
