@@ -40,6 +40,15 @@
     color: inherit;
 }
 
+.link--colored-text-alike {
+    color: inherit;
+    text-decoration: none;
+}
+
+.link--colored-text-alike:hover {
+    color: var(--accent);
+}
+
 
 .link--no-hover,
 .link--no-hover:hover,
