@@ -73,8 +73,7 @@
 
             }
                 .ege-course__sub-navigation .nav {
-                    padding-left: 30px;
-                    padding-right: 30px;
+
                 }
 
                 .ege-course__filter {
@@ -120,22 +119,27 @@
                 /*line-height: 24px;*/
             }
 
+            .ege-course__search {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
 
             .ege-course__sub-navigation {
 
             }
                 .ege-course__sub-navigation .nav {
-                    padding-left: 30px;
-                    padding-right: 30px;
+                    padding-left: 20px;
+                    padding-right: 20px;
                 }
 
                 .ege-course__filter {
                     position: static;
                     margin-top: 16px;
-                    margin-left: 30px;
+                    margin-left: 20px;
                 }
 
             .ege-course__content {
-
+                padding-left: 20px;
+                padding-right: 20px;
             }
 }
