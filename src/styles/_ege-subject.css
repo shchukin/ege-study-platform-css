@@ -19,10 +19,12 @@
 
         .ege-subject__content {
             padding: 11px 30px 30px;
-            background-image: linear-gradient(#FFFFFF, #F9F9F9 200px, #F9F9F9);
             border-radius: 12px;
         }
 
+        .ege-subject__content--has-gradient-for-grid {
+            background-image: linear-gradient(#FFFFFF, #F9F9F9 200px, #F9F9F9);
+        }
 
 
 @media (width < 768px) {
