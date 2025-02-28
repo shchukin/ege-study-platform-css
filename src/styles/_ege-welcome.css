@@ -1,4 +1,10 @@
 .ege-welcome {
+
+}
+
+
+/* Если есть вторая колонка: */
+.ege-welcome:has(.ege-welcome__event) {
     display: grid;
     grid-template-columns: minmax(0, calc(66.6666% + 8px)) minmax(0, calc(33.3333% - 8px)); /* 8px потому что на отступ меньше, немного странно он пересчитывается */
     gap: 12px;
