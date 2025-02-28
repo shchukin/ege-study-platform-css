@@ -78,6 +78,10 @@
                 padding: 24px 30px 30px;
             }
 
+            .ege-textbook__lesson:has(.ege-video:only-child) {
+                padding: 0;
+            }
+
             .ege-textbook__addition {
                 margin-top: 12px;
             }
@@ -86,7 +90,7 @@
                 }
 
                 .ege-textbook__related {
-                    padding: 30px 30px 20px;
+                    padding: 11px 30px 20px;
                 }
 
 
