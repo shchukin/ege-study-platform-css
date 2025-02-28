@@ -1,0 +1,34 @@
+.ege-live-search {
+
+}
+    .ege-live-search__inner {
+        max-width: 840px;
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+    }
+        .ege-live-search__field {
+            flex-grow: 1;
+        }
+
+        .ege-live-search__submit {
+            flex-shrink: 0;
+        }
+
+
+@media (width < 768px) {
+
+    .ege-live-search {
+
+    }
+        .ege-live-search__inner {
+            display: block;
+        }
+            .ege-live-search__field {
+
+            }
+
+            .ege-live-search__submit {
+                margin-top: 20px;
+            }
+}

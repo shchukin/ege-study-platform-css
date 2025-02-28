@@ -1,0 +1,15 @@
+.ege-position-filter {
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+
+
+@media (width < 768px) {
+
+    .ege-position-filter {
+        position: static;
+        margin-top: 16px;
+        margin-left: 20px;
+    }
+}
