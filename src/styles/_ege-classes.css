@@ -20,6 +20,11 @@
         border-collapse: collapse;
         vertical-align: top;
     }
+
+    /* Если нет месяца: */
+    .ege-classes__section:first-child {
+        margin-top: 0;
+    }
         .ege-classes__body {
 
         }
