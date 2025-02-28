@@ -34,31 +34,31 @@
 
 
 /* кейс б) 4 плитки */
-.ege-progress:has(.ege-progress__item:nth-child(4)):not(:has(.ege-progress__item:nth-child(5))) {
+.ege-progress:has(:nth-child(4):last-child) {
     grid-auto-flow: unset;
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 
 /* кейс в) 5 плиток */
-.ege-progress:has(.ege-progress__item:nth-child(4)):has(.ege-progress__item:nth-child(5)):not(:has(.ege-progress__item:nth-child(6))) {
+.ege-progress:has(:nth-child(5):last-child) {
     grid-auto-flow: unset;
     grid-template-columns: repeat(6, minmax(0, 1fr));
 }
     /* Первые три: */
-    .ege-progress:has(.ege-progress__item:nth-child(4)):has(.ege-progress__item:nth-child(5)):not(:has(.ege-progress__item:nth-child(6))) .ege-progress__item {
+    .ege-progress:has(:nth-child(5):last-child) .ege-progress__item {
         grid-column: span 2;
     }
 
     /* Четвёртая и пятая: */
-    .ege-progress:has(.ege-progress__item:nth-child(4)):has(.ege-progress__item:nth-child(5)):not(:has(.ege-progress__item:nth-child(6))) .ege-progress__item:nth-child(4),
-    .ege-progress:has(.ege-progress__item:nth-child(4)):has(.ege-progress__item:nth-child(5)):not(:has(.ege-progress__item:nth-child(6))) .ege-progress__item:nth-child(5) {
+    .ege-progress:has(:nth-child(5):last-child) .ege-progress__item:nth-child(4),
+    .ege-progress:has(:nth-child(5):last-child) .ege-progress__item:nth-child(5) {
         grid-column: span 3;
     }
 
 
 /* кейс г) 6 плитки */
-.ege-progress:has(.ege-progress__item:nth-child(4)):has(.ege-progress__item:nth-child(5)):has(.ege-progress__item:nth-child(6)) {
+.ege-progress:has(:nth-child(6):last-child) {
     grid-auto-flow: unset;
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
